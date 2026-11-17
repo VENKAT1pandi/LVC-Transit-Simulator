@@ -1,0 +1,20 @@
+uv run transitcap all
+[ingest] done in 27s
+[build] done in 338s
+[power] done in 48s
+plan sha256: 74e2d3dca6bdcfbca78d6ab0ee67983d02c7d29689e636f2143e6d7223579956
+[freeze] done in 0s
+[estimate] done in 318s
+  test 1/7 planted_effect: passed=False (425s)
+  test 2/7 pretrend_bounds: passed=False (0s)
+  test 3/7 placebo_stations: passed=False (12589s)
+  test 4/7 placebo_date: passed=True (2s)
+  test 5/7 rezoning_split: passed=None (0s)
+  test 6/7 composition: passed=False (4s)
+  test 7/7 leave_one_station_out: passed=True (112s)
+[falsify] done in 13146s
+[revenue] done in 63s
+decision: exit: negative effect; reject value capture on this evidence
+[decide] done in 0s
+[report] done in 28s
+TOTAL 13970.26 s, peak 3544256 KB

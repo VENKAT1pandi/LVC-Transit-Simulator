@@ -1,0 +1,13 @@
+{
+  "threshold": 0.05,
+  "elasticity_needed": {
+    "lid": 0.05984421335281252,
+    "tia": 0.758536818194347
+  },
+  "best_instrument": "lid",
+  "best_elasticity_needed": 0.05984421335281252,
+  "completed_corridor_dose_mean": 2.021961719196979,
+  "breakeven_att_completed_corridor": 0.12100270851484361,
+  "mde_log_points": 0.05885452150428407,
+  "corridor_can_answer": true
+}

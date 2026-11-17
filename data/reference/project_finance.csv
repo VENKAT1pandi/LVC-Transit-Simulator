@@ -1,0 +1,5 @@
+project_id,item,low_usd,high_usd,basis,source
+west_seattle_2035,finance_plan_cost,4200000000,4200000000,Cost in Sound Transit finance plan before escalation,The Urbanist / Seattle Times reporting (2024-2026); not checked against Sound Transit documents
+west_seattle_2035,current_cost_estimate,5000000000,8000000000,"Reported range after cost increases and the 2026 savings measures; dollar year not consistent across sources",Wikipedia West Seattle Link Extension (~$7B); westsideseattle.com 2026-08-07 (-$2B refinement); myballard.com 2026-05-06 (up to $8B)
+west_seattle_2035,funding_gap,800000000,3800000000,current_cost_estimate minus finance_plan_cost,Derived
+system,agency_long_term_gap,34500000000,35000000000,Agency-wide long-term affordability gap (context only; not the materiality denominator),westsideseattle.com 2026-08-07; myballard.com 2026-05-06

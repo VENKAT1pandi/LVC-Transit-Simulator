@@ -1,0 +1,203 @@
+[
+  {
+    "test": "planted_effect",
+    "planted": 0.05,
+    "runs": 100,
+    "coverage": 0.8,
+    "mean_estimate": 0.050189158773275254,
+    "bias": 0.00018915877327525116,
+    "passed": false
+  },
+  {
+    "test": "pretrend_bounds",
+    "max_pre_step": 0.08595608656297547,
+    "mbar": 1.0,
+    "robust_lo": -0.5788094276261322,
+    "robust_hi": 0.5120603822506485,
+    "breakdown_mbar": 0.007127936434749418,
+    "passed": false
+  },
+  {
+    "test": "placebo_stations",
+    "replicates": 100,
+    "placebo_lo": -0.15787945587647362,
+    "placebo_hi": 0.11905268331855097,
+    "real": -0.03337452268774182,
+    "passed": false
+  },
+  {
+    "test": "placebo_date",
+    "shift_years": 5,
+    "estimate": 0.010073415198706524,
+    "lo": -0.0309137314434879,
+    "hi": 0.0513104101796482,
+    "passed": true
+  },
+  {
+    "test": "rezoning_split",
+    "passed": null,
+    "status": "blocked",
+    "reason": "dim_zoning holds only the current zoning snapshot; no open, parcel-level history of zoning changes was found for King County jurisdictions"
+  },
+  {
+    "test": "composition",
+    "rows": [
+      {
+        "characteristic": "log_sqft_living",
+        "effect": -0.042431951788743615,
+        "lo": -0.13579731288737285,
+        "hi": 0.05484827349311195,
+        "std_effect": -0.10435363288919032,
+        "ok": false
+      },
+      {
+        "characteristic": "age",
+        "effect": -16.172165199897222,
+        "lo": -21.642052775942833,
+        "hi": -10.857631575766144,
+        "std_effect": -0.48418223479968797,
+        "ok": false
+      },
+      {
+        "characteristic": "grade",
+        "effect": 0.03128636776308959,
+        "lo": -0.13200425694763748,
+        "hi": 0.21290919645239714,
+        "std_effect": 0.030409216131561615,
+        "ok": true
+      }
+    ],
+    "passed": false
+  },
+  {
+    "test": "leave_one_station_out",
+    "rows": [
+      {
+        "station_id": "C19",
+        "estimate": -0.009042278970946675,
+        "inside_full_ci": true
+      },
+      {
+        "station_id": "C23",
+        "estimate": -0.04720420340091159,
+        "inside_full_ci": true
+      },
+      {
+        "station_id": "C25",
+        "estimate": -0.022169541114227136,
+        "inside_full_ci": true
+      },
+      {
+        "station_id": "C27",
+        "estimate": -0.014705142350656092,
+        "inside_full_ci": true
+      },
+      {
+        "station_id": "C29",
+        "estimate": -0.028870295555953683,
+        "inside_full_ci": true
+      },
+      {
+        "station_id": "C35",
+        "estimate": -0.0377171517364529,
+        "inside_full_ci": true
+      },
+      {
+        "station_id": "C37",
+        "estimate": -0.03358102523791292,
+        "inside_full_ci": true
+      },
+      {
+        "station_id": "E01",
+        "estimate": -0.05049156607845368,
+        "inside_full_ci": true
+      },
+      {
+        "station_id": "E07",
+        "estimate": -0.0321646811183825,
+        "inside_full_ci": true
+      },
+      {
+        "station_id": "E09",
+        "estimate": -0.03792818310879694,
+        "inside_full_ci": true
+      },
+      {
+        "station_id": "E11",
+        "estimate": -0.03494185918571658,
+        "inside_full_ci": true
+      },
+      {
+        "station_id": "E23",
+        "estimate": -0.034303934920528856,
+        "inside_full_ci": true
+      },
+      {
+        "station_id": "E31",
+        "estimate": -0.03337452268774182,
+        "inside_full_ci": true
+      },
+      {
+        "station_id": "N03",
+        "estimate": -0.03337452268774182,
+        "inside_full_ci": true
+      },
+      {
+        "station_id": "N05",
+        "estimate": -0.03337452268774182,
+        "inside_full_ci": true
+      },
+      {
+        "station_id": "N07",
+        "estimate": -0.02921823377155239,
+        "inside_full_ci": true
+      },
+      {
+        "station_id": "N09",
+        "estimate": -0.04564793992444211,
+        "inside_full_ci": true
+      },
+      {
+        "station_id": "N11",
+        "estimate": -0.0385340297883826,
+        "inside_full_ci": true
+      },
+      {
+        "station_id": "N13",
+        "estimate": -0.034259442417616935,
+        "inside_full_ci": true
+      },
+      {
+        "station_id": "N15",
+        "estimate": -0.03337452268774182,
+        "inside_full_ci": true
+      },
+      {
+        "station_id": "N17",
+        "estimate": -0.03337452268774182,
+        "inside_full_ci": true
+      },
+      {
+        "station_id": "S01",
+        "estimate": -0.03326743871045709,
+        "inside_full_ci": true
+      },
+      {
+        "station_id": "S03",
+        "estimate": -0.03337452268774182,
+        "inside_full_ci": true
+      },
+      {
+        "station_id": "S05",
+        "estimate": -0.03337452268774182,
+        "inside_full_ci": true
+      },
+      {
+        "station_id": "S07",
+        "estimate": -0.03337452268774182,
+        "inside_full_ci": true
+      }
+    ],
+    "passed": true
+  }
+]

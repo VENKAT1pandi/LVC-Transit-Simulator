@@ -1,0 +1,374 @@
+{
+  "base": {
+    "tax_year": 2027,
+    "assessment_ratio": 0.9246913580246914,
+    "background_growth": 0.055706570250973114,
+    "zone_parcels": 2591,
+    "zone_single_family": 2133,
+    "zone_assessed_value": 2619735320.0,
+    "zone_sf_assessed_value": 1670059497.0,
+    "dose_mean_sf": 2.5333353253573954,
+    "assessment_ratio_by_year": [
+      {
+        "sale_year": 1995,
+        "median": 0.9057037518976361,
+        "size": 708
+      },
+      {
+        "sale_year": 1996,
+        "median": 0.8620182406590173,
+        "size": 8507
+      },
+      {
+        "sale_year": 1997,
+        "median": 0.8498168498168498,
+        "size": 9429
+      },
+      {
+        "sale_year": 1998,
+        "median": 0.841726618705036,
+        "size": 10634
+      },
+      {
+        "sale_year": 1999,
+        "median": 0.8389803162310423,
+        "size": 10183
+      },
+      {
+        "sale_year": 2000,
+        "median": 0.8528364990218968,
+        "size": 9412
+      },
+      {
+        "sale_year": 2001,
+        "median": 0.8906774628879892,
+        "size": 8950
+      },
+      {
+        "sale_year": 2002,
+        "median": 0.9156767585564741,
+        "size": 9656
+      },
+      {
+        "sale_year": 2003,
+        "median": 0.9080118694362018,
+        "size": 10879
+      },
+      {
+        "sale_year": 2004,
+        "median": 0.8705882352941177,
+        "size": 12014
+      },
+      {
+        "sale_year": 2005,
+        "median": 0.8138795354316919,
+        "size": 12482
+      },
+      {
+        "sale_year": 2006,
+        "median": 0.7613636363636364,
+        "size": 11995
+      },
+      {
+        "sale_year": 2007,
+        "median": 0.808724507311658,
+        "size": 9268
+      },
+      {
+        "sale_year": 2008,
+        "median": 0.9535714285714286,
+        "size": 6359
+      },
+      {
+        "sale_year": 2009,
+        "median": 0.8727760993622021,
+        "size": 5829
+      },
+      {
+        "sale_year": 2010,
+        "median": 0.9155672823218998,
+        "size": 6077
+      },
+      {
+        "sale_year": 2011,
+        "median": 0.9121212121212121,
+        "size": 5515
+      },
+      {
+        "sale_year": 2012,
+        "median": 0.8470442632498544,
+        "size": 7034
+      },
+      {
+        "sale_year": 2013,
+        "median": 0.8232558139534883,
+        "size": 9195
+      },
+      {
+        "sale_year": 2014,
+        "median": 0.8685714285714285,
+        "size": 9517
+      },
+      {
+        "sale_year": 2015,
+        "median": 0.8603825146647763,
+        "size": 10628
+      },
+      {
+        "sale_year": 2016,
+        "median": 0.8318181818181818,
+        "size": 11550
+      },
+      {
+        "sale_year": 2017,
+        "median": 0.8256513026052105,
+        "size": 11705
+      },
+      {
+        "sale_year": 2018,
+        "median": 0.8686030428769018,
+        "size": 10047
+      },
+      {
+        "sale_year": 2019,
+        "median": 0.9024,
+        "size": 10481
+      },
+      {
+        "sale_year": 2020,
+        "median": 0.8363636363636363,
+        "size": 11861
+      },
+      {
+        "sale_year": 2021,
+        "median": 0.826753835761845,
+        "size": 13638
+      },
+      {
+        "sale_year": 2022,
+        "median": 0.8779661016949153,
+        "size": 9318
+      },
+      {
+        "sale_year": 2023,
+        "median": 0.8411874862304473,
+        "size": 6974
+      },
+      {
+        "sale_year": 2024,
+        "median": 0.8836141906873614,
+        "size": 7590
+      },
+      {
+        "sale_year": 2025,
+        "median": 0.9207920792079208,
+        "size": 7751
+      },
+      {
+        "sale_year": 2026,
+        "median": 0.9246913580246914,
+        "size": 6392
+      }
+    ]
+  },
+  "elasticity_draws": {
+    "median": 0.012089123752998997,
+    "p10": -0.0017832061247739417,
+    "p90": 0.025732870725267688,
+    "share_negative": 0.132
+  },
+  "tia_area_base_av": 382503223.0,
+  "tia_area_parcels": 352,
+  "lid_zone_parcels": 2133,
+  "instruments": {
+    "lid": {
+      "pv_net_median": 20590073.681011673,
+      "pv_net_p10": 0.0,
+      "pv_net_p90": 48691485.22471172,
+      "funding_ratio_median": 0.009063239358981675,
+      "funding_ratio_p10": 0.0,
+      "funding_ratio_p90": 0.02734298103862196,
+      "p_material": 0.0172,
+      "bands": {
+        "below 5%": 0.9828,
+        "5% to 15%": 0.0172,
+        "15% to 30%": 0.0,
+        "above 30%": 0.0
+      },
+      "bankability_q10_by_year": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "tia": {
+      "pv_net_median": 647694.2282194174,
+      "pv_net_p10": -93001.38739006646,
+      "pv_net_p90": 1462094.1549411626,
+      "funding_ratio_median": 0.00028472172601303944,
+      "funding_ratio_p10": -4.0069136051889324e-05,
+      "funding_ratio_p90": 0.0008422723325318264,
+      "p_material": 0.0,
+      "bands": {
+        "below 5%": 1.0,
+        "5% to 15%": 0.0,
+        "15% to 30%": 0.0,
+        "above 30%": 0.0
+      },
+      "bankability_q10_by_year": [
+        0.0,
+        0.0,
+        0.0,
+        -4.784114963192906e-07,
+        -8.468790698960355e-06,
+        -1.3786939682883539e-05,
+        -1.929557873811812e-05,
+        -2.516921196013078e-05,
+        -3.18571206342397e-05,
+        -3.904353723807683e-05
+      ],
+      "pv_gross_median": 32522902.80588562,
+      "net_share_of_gross_median": 0.02020555431568409
+    },
+    "package": {
+      "pv_net_median": 20590073.681011673,
+      "pv_net_p10": 0.0,
+      "pv_net_p90": 48691485.22471172,
+      "funding_ratio_median": 0.009063239358981675,
+      "funding_ratio_p10": 0.0,
+      "funding_ratio_p90": 0.02734298103862196,
+      "p_material": 0.0172,
+      "bands": {
+        "below 5%": 0.9828,
+        "5% to 15%": 0.0172,
+        "15% to 30%": 0.0,
+        "above 30%": 0.0
+      },
+      "bankability_q10_by_year": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "station_projection": [
+    {
+      "station_id": "WS1",
+      "parcels": 940,
+      "dose_mean": 2.1841233723984317,
+      "gain_p10": -2678422.517592731,
+      "gain_p50": 18437649.472644567,
+      "gain_p90": 39843465.39953221
+    },
+    {
+      "station_id": "WS2",
+      "parcels": 1193,
+      "dose_mean": 2.8084897560207867,
+      "gain_p10": -5569099.345786931,
+      "gain_p50": 38502115.86882193,
+      "gain_p90": 83560020.40833914
+    }
+  ],
+  "best_instrument": "lid",
+  "tornado": [
+    {
+      "input": "elasticity (incl. transfer error)",
+      "low": 0.0,
+      "high": 0.020291248561228777,
+      "swing": 0.020291248561228777
+    },
+    {
+      "input": "gap",
+      "low": 0.019931774504068432,
+      "high": 0.006147584466053414,
+      "swing": 0.013784190038015018
+    },
+    {
+      "input": "lid_capture",
+      "low": 0.00688494698098039,
+      "high": 0.011923275470194096,
+      "swing": 0.005038328489213706
+    },
+    {
+      "input": "lid_eta",
+      "low": 0.008226678874151086,
+      "high": 0.010504740324726314,
+      "swing": 0.002278061450575228
+    },
+    {
+      "input": "rate",
+      "low": 0.009890117062389703,
+      "high": 0.0088551196932538,
+      "swing": 0.0010349973691359034
+    },
+    {
+      "input": "lid_collection",
+      "low": 0.009209295102052383,
+      "high": 0.009519559965164959,
+      "swing": 0.00031026486311257553
+    },
+    {
+      "input": "lid_admin",
+      "low": 0.009480264633768169,
+      "high": 0.009247519901010054,
+      "swing": 0.0002327447327581146
+    },
+    {
+      "input": "tia_rate",
+      "low": 0.009362611793321316,
+      "high": 0.009362611793321316,
+      "swing": 0.0
+    },
+    {
+      "input": "tia_collection",
+      "low": 0.009362611793321316,
+      "high": 0.009362611793321316,
+      "swing": 0.0
+    },
+    {
+      "input": "tia_admin",
+      "low": 0.009362611793321316,
+      "high": 0.009362611793321316,
+      "swing": 0.0
+    },
+    {
+      "input": "tia_eta",
+      "low": 0.009362611793321316,
+      "high": 0.009362611793321316,
+      "swing": 0.0
+    },
+    {
+      "input": "lag",
+      "low": 0.009362611793321316,
+      "high": 0.009362611793321316,
+      "swing": 0.0
+    }
+  ],
+  "land_split": {
+    "assessor_median_land_share_sf": 0.5440494590417311,
+    "vacant_sales_median_land_share_sf": 0.06746289566624376,
+    "vacant_sales_n_improved_matched": 1460,
+    "vacant_sales_n_area_periods": 62,
+    "note": "assessor split is formula-driven; vacant-sales share uses area-by-5-year medians"
+  },
+  "incidence": {
+    "block_groups": 14,
+    "median_annual_share": 0.0058992861471895055,
+    "max_annual_share": 0.017920615715642182,
+    "median_charge_usd": 10819.261550652493
+  }
+}

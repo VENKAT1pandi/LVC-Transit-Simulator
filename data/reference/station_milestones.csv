@@ -1,0 +1,42 @@
+station_id,station_name,lat,lon,county,segment,status,announce_date,announce_precision,funding_date,funding_precision,funding_basis,construction_date,construction_precision,open_date,open_precision,source
+C03,Westlake,47.611604,-122.336658,King,central_2009,open,1996-11-05,day,2003-10-01,month,FTA $500M grant agreement Oct 2003,2003-11-08,day,2009-07-18,day,W1;W2
+C05,Symphony,47.607746,-122.335960,King,central_2009,open,1996-11-05,day,2003-10-01,month,FTA $500M grant agreement Oct 2003,2003-11-08,day,2009-07-18,day,W1;W2
+C07,Pioneer Square,47.602669,-122.331318,King,central_2009,open,1996-11-05,day,2003-10-01,month,FTA $500M grant agreement Oct 2003,2003-11-08,day,2009-07-18,day,W1;W2
+C09,International District/Chinatown,47.598049,-122.328018,King,central_2009,open,1996-11-05,day,2003-10-01,month,FTA $500M grant agreement Oct 2003,2003-11-08,day,2009-07-18,day,W1;W2
+C13,Stadium,47.592055,-122.327171,King,central_2009,open,1996-11-05,day,2003-10-01,month,FTA $500M grant agreement Oct 2003,2003-11-08,day,2009-07-18,day,W1;W2
+C15,SODO,47.581299,-122.327410,King,central_2009,open,1996-11-05,day,2003-10-01,month,FTA $500M grant agreement Oct 2003,2003-11-08,day,2009-07-18,day,W1;W2
+C19,Beacon Hill,47.579401,-122.311340,King,central_2009,open,1996-11-05,day,2003-10-01,month,FTA $500M grant agreement Oct 2003,2003-11-08,day,2009-07-18,day,W1;W2
+C23,Mount Baker,47.576715,-122.297802,King,central_2009,open,1996-11-05,day,2003-10-01,month,FTA $500M grant agreement Oct 2003,2003-11-08,day,2009-07-18,day,W1;W2
+C25,Columbia City,47.559652,-122.292641,King,central_2009,open,1996-11-05,day,2003-10-01,month,FTA $500M grant agreement Oct 2003,2003-11-08,day,2009-07-18,day,W1;W2
+C27,Othello,47.538016,-122.281582,King,central_2009,open,1996-11-05,day,2003-10-01,month,FTA $500M grant agreement Oct 2003,2003-11-08,day,2009-07-18,day,W1;W2
+C29,Rainier Beach,47.522610,-122.279335,King,central_2009,open,1996-11-05,day,2003-10-01,month,FTA $500M grant agreement Oct 2003,2003-11-08,day,2009-07-18,day,W1;W2
+C35,Tukwila International Boulevard,47.464098,-122.288201,King,central_2009,open,1996-11-05,day,2003-10-01,month,FTA $500M grant agreement Oct 2003,2003-11-08,day,2009-07-18,day,W1;W2
+C37,SeaTac/Airport,47.445011,-122.296860,King,airport_2009,open,1996-11-05,day,2003-10-01,month,PROXY: initial-segment grant agreement; airport extension funding date not verified,,unknown,2009-12-19,day,W1;W2
+N03,Capitol Hill,47.619591,-122.320213,King,ulink_2016,open,1996-11-05,day,2009-01-15,day,FTA announced $830M federal share (press release 15 Jan 2009),2009-03-06,day,2016-03-19,day,W1;W3
+N05,University of Washington,47.649831,-122.303765,King,ulink_2016,open,1996-11-05,day,2009-01-15,day,FTA announced $830M federal share (press release 15 Jan 2009),2009-03-06,day,2016-03-19,day,W1;W3
+S01,Angle Lake,47.422585,-122.297799,King,s200_2016,open,2008-11-04,day,2011-01-01,year,Board accelerated construction after $10M TIGER grant (2011),2013-04-26,day,2016-09-24,day,W1;W5
+N07,U District,47.660312,-122.314131,King,northgate_2021,open,2008-11-04,day,2012-01-01,year,PROXY: construction-start year; Northgate FFGA date not verified,2012-01-01,year,2021-10-02,day,W1;W4
+N09,Roosevelt,47.676594,-122.315984,King,northgate_2021,open,2008-11-04,day,2012-01-01,year,PROXY: construction-start year; Northgate FFGA date not verified,2012-01-01,year,2021-10-02,day,W1;W4
+N11,Northgate,47.703038,-122.328282,King,northgate_2021,open,2008-11-04,day,2012-01-01,year,PROXY: construction-start year; Northgate FFGA date not verified,2012-01-01,year,2021-10-02,day,W1;W4
+E09,South Bellevue,47.586571,-122.190403,King,east_2024,open,2008-11-04,day,2015-01-01,year,Board adopted $3.7B East Link budget (2015),2016-04-22,day,2024-04-27,day,W1;W6
+E11,East Main,47.608055,-122.191150,King,east_2024,open,2008-11-04,day,2015-01-01,year,Board adopted $3.7B East Link budget (2015),2016-04-22,day,2024-04-27,day,W1;W6
+E15,Bellevue Downtown,47.615234,-122.191917,King,east_2024,open,2008-11-04,day,2015-01-01,year,Board adopted $3.7B East Link budget (2015),2016-04-22,day,2024-04-27,day,W1;W6
+E19,Wilburton,47.618069,-122.183747,King,east_2024,open,2008-11-04,day,2015-01-01,year,Board adopted $3.7B East Link budget (2015),2016-04-22,day,2024-04-27,day,W1;W6
+E21,Spring District,47.623774,-122.178570,King,east_2024,open,2008-11-04,day,2015-01-01,year,Board adopted $3.7B East Link budget (2015),2016-04-22,day,2024-04-27,day,W1;W6
+E23,BelRed,47.624449,-122.165794,King,east_2024,open,2008-11-04,day,2015-01-01,year,Board adopted $3.7B East Link budget (2015),2016-04-22,day,2024-04-27,day,W1;W6
+E25,Overlake Village,47.636387,-122.138799,King,east_2024,open,2008-11-04,day,2015-01-01,year,Board adopted $3.7B East Link budget (2015),2016-04-22,day,2024-04-27,day,W1;W6
+E27,Redmond Technology,47.644812,-122.133614,King,east_2024,open,2008-11-04,day,2015-01-01,year,Board adopted $3.7B East Link budget (2015),2016-04-22,day,2024-04-27,day,W1;W6
+N15,Shoreline South/148th,47.736126,-122.325243,King,lynnwood_2024,open,2008-11-04,day,2018-12-19,day,FTA executed $1.17B FFGA,2019-09-03,day,2024-08-30,day,W1;W7
+N17,Shoreline North/185th,47.764088,-122.322890,King,lynnwood_2024,open,2008-11-04,day,2018-12-19,day,FTA executed $1.17B FFGA,2019-09-03,day,2024-08-30,day,W1;W7
+N19,Mountlake Terrace,47.784998,-122.314781,Snohomish,lynnwood_2024,open,2008-11-04,day,2018-12-19,day,FTA executed $1.17B FFGA,2019-09-03,day,2024-08-30,day,W1;W7
+N23,Lynnwood City Center,47.815640,-122.294730,Snohomish,lynnwood_2024,open,2008-11-04,day,2018-12-19,day,FTA executed $1.17B FFGA,2019-09-03,day,2024-08-30,day,W1;W7
+E29,Marymoor Village,47.667274,-122.109758,King,redmond_2025,open,2016-11-08,day,2021-01-01,year,$521M TIFIA loan (2021),2019-10-01,month,2025-05-10,day,W1;W6
+E31,Downtown Redmond,47.671627,-122.118408,King,redmond_2025,open,2016-11-08,day,2021-01-01,year,$521M TIFIA loan (2021),2019-10-01,month,2025-05-10,day,W1;W6
+S03,Kent Des Moines,47.389544,-122.294398,King,fedway_2025,open,2008-11-04,day,2020-01-01,month,$790M FFGA signing ceremony Jan 2020,2020-07-16,day,2025-12-06,day,W1;W8
+S05,Star Lake,47.359318,-122.297420,King,fedway_2025,open,2008-11-04,day,2020-01-01,month,$790M FFGA signing ceremony Jan 2020,2020-07-16,day,2025-12-06,day,W1;W8
+S07,Federal Way Downtown,47.316225,-122.303638,King,fedway_2025,open,2008-11-04,day,2020-01-01,month,$790M FFGA signing ceremony Jan 2020,2020-07-16,day,2025-12-06,day,W1;W8
+E01,Judkins Park,47.590296,-122.304296,King,crosslake_2026,open,2008-11-04,day,2015-01-01,year,East Link budget (2015),2016-04-22,day,2026-03-28,day,W1;W6
+E07,Mercer Island,47.588208,-122.233261,King,crosslake_2026,open,2008-11-04,day,2015-01-01,year,East Link budget (2015),2016-04-22,day,2026-03-28,day,W1;W6
+N13,Pinehurst,47.724049,-122.323834,King,pinehurst_2026,open,2016-11-08,day,2016-11-08,day,PROXY: funded separately in ST3; no separate funding date,,unknown,2026-09-30,day,W1;W2
+WS1,Delridge (planned),47.5647238,-122.3633198,King,west_seattle_2035,planned,2016-11-08,day,,unknown,No federal funding agreement found; FTA Record of Decision Apr 2025,,unknown,2035-01-01,year,W9;W10
+WS2,Alaska Junction (planned),47.5611106,-122.386774,King,west_seattle_2035,planned,2016-11-08,day,,unknown,No federal funding agreement found; FTA Record of Decision Apr 2025,,unknown,2035-01-01,year,W9;W10

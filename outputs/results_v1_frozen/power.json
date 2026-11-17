@@ -1,0 +1,12 @@
+{
+  "sigma_resid": 0.16355637592843972,
+  "icc_cluster_year": 0.07561892359472273,
+  "mean_sales_per_cluster_year": 236.004329004329,
+  "design_effect": 18.77077439940744,
+  "se_overall_post": 0.021007578539383513,
+  "mde_log_points": 0.05885452150428407,
+  "event_times_used": 11,
+  "n_treated_sales": 8644,
+  "n_control_sales": 117168,
+  "treated_dose_mean": 2.021961719196979
+}

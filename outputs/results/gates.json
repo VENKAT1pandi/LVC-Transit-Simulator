@@ -1,0 +1,117 @@
+{
+  "gates": [
+    {
+      "gate": "G0",
+      "question": "Is a value-capture instrument legally available to a sponsor?",
+      "passed": true,
+      "outcome": "pass",
+      "evidence": {
+        "n_available": 2,
+        "instruments": [
+          "lid",
+          "tia"
+        ],
+        "constraints": [
+          "Assessment may not exceed special benefit; owners subject to 60% or more of total cost can stop formation by protest within 30 days (RCW 35.43.180)",
+          "Area AV at most $200M or 20% of sponsor's AV, whichever is less (RCW 39.114.020(1)(c)(i)); at most two active areas per sponsor (1)(d); sunset at most 25 years after first collection (1)(e)"
+        ]
+      },
+      "decision_relevant": true
+    },
+    {
+      "gate": "G1",
+      "question": "Can the corridor detect the break-even effect?",
+      "passed": true,
+      "outcome": "pass",
+      "evidence": {
+        "mde_log_points": 0.0588545215042841,
+        "breakeven_att": 0.12100270851484361,
+        "best_instrument": "lid"
+      },
+      "decision_relevant": true
+    },
+    {
+      "gate": "G2",
+      "question": "Is there a capitalization effect, and is the answer precise?",
+      "passed": false,
+      "outcome": "exit: negative effect; reject value capture on this evidence",
+      "evidence": {
+        "estimate": -0.03337452268774182,
+        "se": 0.015152515961923102,
+        "lo": -0.06200018406198901,
+        "hi": -0.004049606557439787
+      },
+      "decision_relevant": true
+    },
+    {
+      "gate": "G3",
+      "question": "Does the estimate survive the falsification suite?",
+      "passed": false,
+      "outcome": "exit: failed planted_effect, pretrend_bounds, placebo_stations, composition",
+      "evidence": {
+        "failed": [
+          "planted_effect",
+          "pretrend_bounds",
+          "placebo_stations",
+          "composition"
+        ],
+        "blocked": [
+          "rezoning_split"
+        ]
+      },
+      "decision_relevant": false
+    },
+    {
+      "gate": "G4",
+      "question": "Is net revenue likely to be material to the funding plan?",
+      "passed": false,
+      "outcome": "exit: not material",
+      "evidence": {
+        "instrument": "lid",
+        "pv_net_median": 20590073.681011673,
+        "pv_net_p10": 0.0,
+        "pv_net_p90": 48691485.22471172,
+        "funding_ratio_median": 0.009063239358981675,
+        "funding_ratio_p10": 0.0,
+        "funding_ratio_p90": 0.02734298103862196,
+        "p_material": 0.0172,
+        "bands": {
+          "below 5%": 0.9828,
+          "5% to 15%": 0.0172,
+          "15% to 30%": 0.0,
+          "above 30%": 0.0
+        },
+        "bankability_q10_by_year": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "flags": []
+      },
+      "decision_relevant": false
+    },
+    {
+      "gate": "G5",
+      "question": "Does the instrument transfer to the planned line with acceptable incidence?",
+      "passed": true,
+      "outcome": "pass",
+      "evidence": {
+        "bankability_min_q10_ratio": 0.0,
+        "block_groups": 14,
+        "median_annual_share": 0.0058992861471895055,
+        "max_annual_share": 0.017920615715642182,
+        "median_charge_usd": 10819.261550652493
+      },
+      "decision_relevant": false
+    }
+  ],
+  "decision_gate": "G2",
+  "decision": "exit: negative effect; reject value capture on this evidence"
+}

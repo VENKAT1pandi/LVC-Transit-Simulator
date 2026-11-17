@@ -1,0 +1,11 @@
+{
+  "sha256": "74e2d3dca6bdcfbca78d6ab0ee67983d02c7d29689e636f2143e6d7223579956",
+  "frozen_at": "2026-11-15T04:16:22.829290+00:00",
+  "history": [
+    {
+      "sha256": "b631fa5a4d5494a677da8e66bdec08064c2db75f9d22659727e90eceedd29044",
+      "frozen_at": "2026-11-15T03:34:00.788078+00:00",
+      "replaced_because": "ADR-0007: planted-effect test showed bias from missing submarket terms; added assessor-area indicators"
+    }
+  ]
+}

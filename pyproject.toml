@@ -1,0 +1,43 @@
+[project]
+name = "transitcap"
+version = "0.1.0"
+description = "TransitCap v3 prototype: transit land-value capitalization and value-capture revenue for Seattle Link"
+requires-python = "==3.12.*"
+authors = [{ name = "Venkatesh T" }]
+dependencies = [
+  "numpy==1.26.4",
+  "pandas==2.1.4",
+  "geopandas==0.14.3",
+  "shapely==2.0.3",
+  "pyproj==3.6.1",
+  "duckdb==1.4.4",
+  "pyarrow==24.0.0",
+  "scipy==1.13.1",
+  "matplotlib==3.9.2",
+  "pyyaml==6.0.2",
+  "requests==2.32.3",
+  "osmium==4.0.2",
+  "pyogrio==0.10.0",
+  "mapbox-vector-tile==2.2.0",
+]
+
+[project.scripts]
+transitcap = "transitcap.cli:main"
+
+[dependency-groups]
+dev = ["pytest==8.3.3", "ruff==0.6.9"]
+
+[build-system]
+requires = ["hatchling==1.25.0"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/transitcap"]
+
+[tool.ruff]
+line-length = 100
+src = ["src", "tests"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

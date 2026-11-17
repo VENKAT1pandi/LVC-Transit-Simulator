@@ -1,0 +1,2223 @@
+{
+  "generated_at": "2026-11-17T10:54:12.532420+00:00",
+  "files": {
+    "data/raw/census/CenPop2020_Mean_BG53.txt": {
+      "sha256": "e301cbef2b9e0cf9f20f1798b1384b00cd52b33666d57070f7ae08d0c8f04d89",
+      "bytes": 232957
+    },
+    "data/raw/census/acs5y2022_b19013.dat": {
+      "sha256": "54dc9c5f15146d861080919372c1dde3f8b51c7bc3f8c175d97b60f2d1c6b85b",
+      "bytes": 17952276
+    },
+    "data/raw/census/acs5y2022_b25003.dat": {
+      "sha256": "a1d503237cf1f590e1d056e4ae6a27d636350a35c620ee3c888018e28dd63966",
+      "bytes": 26989606
+    },
+    "data/raw/census/tl_2020_53_tabblock20.zip": {
+      "sha256": "0ccdbb2b58d4cdc083097411d791ba7a61e599f0937073187617f76740c61689",
+      "bytes": 203676690
+    },
+    "data/raw/gtfs/kcm_1_gtfs.zip": {
+      "sha256": "ff9b26cf8dc49558b526ad804dc1e41b67007fe84914c60bb3a9779c2e5fa163",
+      "bytes": 10795934
+    },
+    "data/raw/gtfs/st_40_gtfs.zip": {
+      "sha256": "c7e14003910e5b3232be77f4f06cf07d671a7c4b0f9781274bac2293582d8f73",
+      "bytes": 3154345
+    },
+    "data/raw/kc_assessor/Lookup.zip": {
+      "sha256": "116aa7cdc6b49bf12f46eb9bdacc68ed83a7754644563648f04a23e990b142de",
+      "bytes": 16391
+    },
+    "data/raw/kc_assessor/Parcel.zip": {
+      "sha256": "b815d86ee53152a30034266cea01d9c13649903d987c587c5d3a8b3b6a3e4ba0",
+      "bytes": 31951976
+    },
+    "data/raw/kc_assessor/Real%20Property%20Sales.zip": {
+      "sha256": "88c772e97726449e222ed64af68a1a81c8239d05dc93e265c9051075c699ab37",
+      "bytes": 151399674
+    },
+    "data/raw/kc_assessor/Residential%20Building.zip": {
+      "sha256": "6719544a9e349c46a12f7919cafe975a8b348c9655dd4764d346bdb16f220221",
+      "bytes": 22301435
+    },
+    "data/raw/kc_assessor/Value%20History.zip": {
+      "sha256": "82b0ade7547e3f16c921d183d9c2f485dcaf1175dd1dfe6396427bf8ad086c33",
+      "bytes": 555280315
+    },
+    "data/raw/kc_parcels/tile_542000_5264000_0.json": {
+      "sha256": "2f5ad8c2bca0af6b259342eecec5800258dfda6474aea0b819d27815b3aeb9fa",
+      "bytes": 108
+    },
+    "data/raw/kc_parcels/tile_542000_5266000_0.json": {
+      "sha256": "875dde9085b3673be3f8a5290998f9f062bdbc07b24e3507c858c3175ffd3b96",
+      "bytes": 6148
+    },
+    "data/raw/kc_parcels/tile_542000_5268000_0.json": {
+      "sha256": "d2e722da429dcdd359d28e7dd49be2a0cfa13c4a98230e6b41fe661893a833ee",
+      "bytes": 112414
+    },
+    "data/raw/kc_parcels/tile_542000_5270000_0.json": {
+      "sha256": "8b892fe29ecaad3f5a0f1bc1d9da5eaa3780859a5c1e8a8eb77274dba4c10ef7",
+      "bytes": 2123
+    },
+    "data/raw/kc_parcels/tile_544000_5264000_0.json": {
+      "sha256": "af6c61afe8340bb5ed5c9d55e90a0df7c1c961a1d06a9351b0d48a73674ddb20",
+      "bytes": 405715
+    },
+    "data/raw/kc_parcels/tile_544000_5264000_1000.json": {
+      "sha256": "1b84f71e2bff569564c08b40dca650abf139b921cea0f4114dd52b9678304f39",
+      "bytes": 74035
+    },
+    "data/raw/kc_parcels/tile_544000_5266000_0.json": {
+      "sha256": "71f05a0bd1f769b1d81bd23859a01f25ab1523fa1ec0d9e1d6b5442655fcea24",
+      "bytes": 515240
+    },
+    "data/raw/kc_parcels/tile_544000_5266000_1000.json": {
+      "sha256": "f90f82879ec2e944cd88b9b136d55ce995fef23508d31c7d83e22e7befa10640",
+      "bytes": 320547
+    },
+    "data/raw/kc_parcels/tile_544000_5266000_2000.json": {
+      "sha256": "ad63804457835068e4d4b98cfbe71b1244430b5845e3674adb0fa5b2647ad57c",
+      "bytes": 112595
+    },
+    "data/raw/kc_parcels/tile_544000_5268000_0.json": {
+      "sha256": "f5b2a7755e445f1130c072a3ed819ce770760134f7724b18e8f1bf35807deaec",
+      "bytes": 345282
+    },
+    "data/raw/kc_parcels/tile_544000_5268000_1000.json": {
+      "sha256": "78d2cd47283cf6c929e08646c86a493dcd72e9baeee49780cc4a32c414c4dd0c",
+      "bytes": 363307
+    },
+    "data/raw/kc_parcels/tile_544000_5268000_2000.json": {
+      "sha256": "ca95e387f264cb8b6232bd9243e09fe7d8545ca7c008c2b54b51981bac1de5cb",
+      "bytes": 386372
+    },
+    "data/raw/kc_parcels/tile_544000_5268000_3000.json": {
+      "sha256": "d3b01b177baefab710e2f84d3f40c547aecf65cf28e3120d6b3b95ce93934e41",
+      "bytes": 374252
+    },
+    "data/raw/kc_parcels/tile_544000_5268000_4000.json": {
+      "sha256": "3aa1b5e0d7b257d5dc309f4a958ddcc30ebd0554ca91eae6eb710cc7646aa6fb",
+      "bytes": 57507
+    },
+    "data/raw/kc_parcels/tile_544000_5270000_0.json": {
+      "sha256": "7d6fae3295f1ae514d41b71679305419b9f26b53848b70e104c99cb369890418",
+      "bytes": 477255
+    },
+    "data/raw/kc_parcels/tile_544000_5270000_1000.json": {
+      "sha256": "7d8e9b7492837d2fe80cf42ca32964bf8cfbe862d37cadf35d43e808f3fe4427",
+      "bytes": 39067
+    },
+    "data/raw/kc_parcels/tile_546000_5264000_0.json": {
+      "sha256": "62ef31a81f3849f2b8efef91516380887fd7773ee11b53edd43216e6b1cbe1fb",
+      "bytes": 367781
+    },
+    "data/raw/kc_parcels/tile_546000_5264000_1000.json": {
+      "sha256": "5a10cc257296ef2ea3abddf6faeb68c67172a2517e9257606e6e72bfa0b1bfbf",
+      "bytes": 328588
+    },
+    "data/raw/kc_parcels/tile_546000_5264000_2000.json": {
+      "sha256": "a291996c8f0e3e8296444b87b8daf3ecbc4daf8a00136b098fa75dff7ace0b5f",
+      "bytes": 536207
+    },
+    "data/raw/kc_parcels/tile_546000_5264000_3000.json": {
+      "sha256": "90d82ece1817129a0781ac3d6540519bfef316288cb6822221439d513a88ca39",
+      "bytes": 371285
+    },
+    "data/raw/kc_parcels/tile_546000_5264000_4000.json": {
+      "sha256": "dc0be8562d8e452878022ad281c5f8a3a5d7332225653ca78a91e502d6e1f4f9",
+      "bytes": 327261
+    },
+    "data/raw/kc_parcels/tile_546000_5264000_5000.json": {
+      "sha256": "fb52e2a33fb4524e28f79369a01ffba4b5a21cc5b0a71fe1d25a2f9a215f5e6a",
+      "bytes": 9452
+    },
+    "data/raw/kc_parcels/tile_546000_5266000_0.json": {
+      "sha256": "4982a958299183a0ea01073cc831dbb10d18db699a7ec87254dc89b56829c2e7",
+      "bytes": 340652
+    },
+    "data/raw/kc_parcels/tile_546000_5266000_1000.json": {
+      "sha256": "aaac366ba09baf29a5d942b806d92e7b41c1c41718834b3aac17d761c2a9155f",
+      "bytes": 408624
+    },
+    "data/raw/kc_parcels/tile_546000_5266000_2000.json": {
+      "sha256": "adf600d3c8ee247c4731154acaa7655b1218cdff5697a6e4634282563f8a0fef",
+      "bytes": 580446
+    },
+    "data/raw/kc_parcels/tile_546000_5266000_3000.json": {
+      "sha256": "0c89ac0a4d6a3c8d3796d52642623e6db0200906ba5e3376d859b72bb377b067",
+      "bytes": 326335
+    },
+    "data/raw/kc_parcels/tile_546000_5266000_4000.json": {
+      "sha256": "fbf7946b300798f7d84db58e875b4e1fdc27217b823a9a0046bbb1c4e7f8f1c3",
+      "bytes": 94985
+    },
+    "data/raw/kc_parcels/tile_546000_5268000_0.json": {
+      "sha256": "c0c510bc9b6f921fb1872a61c917312266668f01a8392d570f3b4d3f690d6540",
+      "bytes": 427791
+    },
+    "data/raw/kc_parcels/tile_546000_5268000_1000.json": {
+      "sha256": "4ee3e679335726e2524760f6f06c92cd9fb65e1d4ee627dde003fee89d796d4d",
+      "bytes": 462026
+    },
+    "data/raw/kc_parcels/tile_546000_5268000_2000.json": {
+      "sha256": "35ddb95e1e2a6a0e3a39228113e2f518cba6502108e78cada5481fef91095e43",
+      "bytes": 390044
+    },
+    "data/raw/kc_parcels/tile_546000_5268000_3000.json": {
+      "sha256": "e0cbb615e315237a71bb2775e633299f3f138066fbcefcdab05b8b611e348425",
+      "bytes": 311521
+    },
+    "data/raw/kc_parcels/tile_546000_5270000_0.json": {
+      "sha256": "5a7895be35217915b2db94f9a37962fd6f6e8567c69e388f05da04ee710b8cb6",
+      "bytes": 513162
+    },
+    "data/raw/kc_parcels/tile_546000_5270000_1000.json": {
+      "sha256": "dff8535058f01dbe0ddd9c1457e2e5366fb8d76b21f6a761eff11e708a79820b",
+      "bytes": 115801
+    },
+    "data/raw/kc_parcels/tile_546000_5272000_0.json": {
+      "sha256": "d6b7b3aff207c3daca5d30def8c4d3126ee93c4658b58a6a6896048bb3cf93c0",
+      "bytes": 9997
+    },
+    "data/raw/kc_parcels/tile_546000_5274000_0.json": {
+      "sha256": "3d6dc0fdeb7a73d06d276b3b05c69a743268911f55691ca62703efe78752da3d",
+      "bytes": 437646
+    },
+    "data/raw/kc_parcels/tile_546000_5274000_1000.json": {
+      "sha256": "9780381a1e775549b5765bfb5fd01030f0e39ce25143319addbce5afb619b3a0",
+      "bytes": 101306
+    },
+    "data/raw/kc_parcels/tile_546000_5276000_0.json": {
+      "sha256": "6dee25901543718dd1d9b5ff67bed7340f2b0b6db873edee3f3d6f5ae2376a11",
+      "bytes": 418294
+    },
+    "data/raw/kc_parcels/tile_546000_5276000_1000.json": {
+      "sha256": "df3dd62c965b78f5d85feaf1a8d87ad6537dbf20e10ec4341a85950a213e3bf7",
+      "bytes": 375908
+    },
+    "data/raw/kc_parcels/tile_546000_5276000_2000.json": {
+      "sha256": "d11b2036fa3f79e04b8559e2c025ad9cefe96626d6d4f8fcac767efa6f0e6c99",
+      "bytes": 380334
+    },
+    "data/raw/kc_parcels/tile_546000_5276000_3000.json": {
+      "sha256": "7d3a92ec8189c121ddce1901cef962d8d43b8955a498e4166a4de1bc741adc40",
+      "bytes": 314590
+    },
+    "data/raw/kc_parcels/tile_546000_5276000_4000.json": {
+      "sha256": "dd1f01a7c0e702c446a088fddfd4306395379e842d972ad2cc71bee4983b4c43",
+      "bytes": 169608
+    },
+    "data/raw/kc_parcels/tile_546000_5278000_0.json": {
+      "sha256": "89ed36a20521808770ad27df5d914f42b3d255148d8b964cd2afa5826c6cc450",
+      "bytes": 460636
+    },
+    "data/raw/kc_parcels/tile_546000_5278000_1000.json": {
+      "sha256": "b7e83d9869bf53f325e2f6269fad3a440eb5b935f8fc77ebb68568de52f27cef",
+      "bytes": 330171
+    },
+    "data/raw/kc_parcels/tile_546000_5278000_2000.json": {
+      "sha256": "65e42870778057373c7a2a7c8c5f9884468452234260ab0e5599d6e9b5c52211",
+      "bytes": 351446
+    },
+    "data/raw/kc_parcels/tile_546000_5278000_3000.json": {
+      "sha256": "048d1055035762af1e36cfd4a018481c448ccefbe0871544be121755350c51ca",
+      "bytes": 248125
+    },
+    "data/raw/kc_parcels/tile_546000_5280000_0.json": {
+      "sha256": "6029090a117607d8cb2616f0755eb012cd3e10196e7ab6b92e23e49d6052d8b8",
+      "bytes": 332959
+    },
+    "data/raw/kc_parcels/tile_546000_5280000_1000.json": {
+      "sha256": "eec8deb2d4f5c05a32d18ba11eabd70355dd79d4a995cf7a446db812be58bde6",
+      "bytes": 330161
+    },
+    "data/raw/kc_parcels/tile_546000_5280000_2000.json": {
+      "sha256": "5589922cd97973d3d6cc716d8381927533174731afd3c23036c5fda612c20880",
+      "bytes": 320650
+    },
+    "data/raw/kc_parcels/tile_546000_5280000_3000.json": {
+      "sha256": "4f5d1e990e5ec31e26ac8cf823228d43792799a5bd5cd619573aeb4aae69d786",
+      "bytes": 334968
+    },
+    "data/raw/kc_parcels/tile_546000_5280000_4000.json": {
+      "sha256": "4c3db7cc0600b5d815083962204263a306bb59e3ab09ccc6ec413a021ca11520",
+      "bytes": 323548
+    },
+    "data/raw/kc_parcels/tile_546000_5280000_5000.json": {
+      "sha256": "1301eee01b199e60717d7ca6054b045e30a1da940c027cc499a39ad864570247",
+      "bytes": 335267
+    },
+    "data/raw/kc_parcels/tile_546000_5280000_6000.json": {
+      "sha256": "9739c80592e8999de578b58413c7f45f6a10acf47a99a06ce8240dd87554b237",
+      "bytes": 313279
+    },
+    "data/raw/kc_parcels/tile_546000_5280000_7000.json": {
+      "sha256": "ac5ab3fd4f27c2158b065d373c8bdb9e0226b297488c03151a3e25e0a249eb4b",
+      "bytes": 322542
+    },
+    "data/raw/kc_parcels/tile_546000_5282000_0.json": {
+      "sha256": "906a7993b52b031100616709a6651d1b4ca9869e99ba233c9892044021123f81",
+      "bytes": 347586
+    },
+    "data/raw/kc_parcels/tile_546000_5282000_1000.json": {
+      "sha256": "54e29268592f772cb74bcc6a802cb03d314beb5386215b5907e1ce2cd7b4ecea",
+      "bytes": 583920
+    },
+    "data/raw/kc_parcels/tile_546000_5282000_2000.json": {
+      "sha256": "fdf3709375aa3db62727441246bf621d6eb4d887dee16b32dcd5631257b37620",
+      "bytes": 345387
+    },
+    "data/raw/kc_parcels/tile_546000_5282000_3000.json": {
+      "sha256": "3aa97df201e2fe0f5840f21342ff7d946da8c40d9992afd403f1316f3845edb6",
+      "bytes": 900977
+    },
+    "data/raw/kc_parcels/tile_546000_5282000_4000.json": {
+      "sha256": "d54c6d08f3ab71bb88253f5406f97cf4f52ffe53c377f7ee7419228e3c1a707c",
+      "bytes": 362265
+    },
+    "data/raw/kc_parcels/tile_546000_5284000_0.json": {
+      "sha256": "24a2d18e1ff7d49432b5e201aaa341a7399f32257f5790c7f49d92aeccbd3aa6",
+      "bytes": 700621
+    },
+    "data/raw/kc_parcels/tile_546000_5284000_1000.json": {
+      "sha256": "569422473a5ad0e869fbbd4f3384cad7ca934ec5a952b337a4ad0d4007ed491b",
+      "bytes": 390687
+    },
+    "data/raw/kc_parcels/tile_546000_5286000_0.json": {
+      "sha256": "b6b50ebd4976d12498dcced6a13f123e42e01e3007e7b6558754dfc8356255f5",
+      "bytes": 1532245
+    },
+    "data/raw/kc_parcels/tile_546000_5288000_0.json": {
+      "sha256": "62b48be6cf804131f79980b7ac1cc59720cfb6778dcaaab62e2000748fc971a9",
+      "bytes": 1789968
+    },
+    "data/raw/kc_parcels/tile_546000_5288000_1000.json": {
+      "sha256": "109c796fcf3f045c87bd456e559fd4b7c54ee4f29b778be9ded1e27426d473bf",
+      "bytes": 25760
+    },
+    "data/raw/kc_parcels/tile_546000_5290000_0.json": {
+      "sha256": "d2e8b967600444839196813cf53f9d1e42b21807db76b1e0de55eea5b84b3a28",
+      "bytes": 427328
+    },
+    "data/raw/kc_parcels/tile_546000_5290000_1000.json": {
+      "sha256": "920674969fd56ed5d6a9eeb5ae997340c14a00c460bc78a9d25e3c0e2519f0b7",
+      "bytes": 647606
+    },
+    "data/raw/kc_parcels/tile_546000_5290000_2000.json": {
+      "sha256": "30827f4390f6f3ee148bf81e4cbe4e108a96002a3bf0f3587e565b2943f4e049",
+      "bytes": 168396
+    },
+    "data/raw/kc_parcels/tile_546000_5292000_0.json": {
+      "sha256": "2f5ad8c2bca0af6b259342eecec5800258dfda6474aea0b819d27815b3aeb9fa",
+      "bytes": 108
+    },
+    "data/raw/kc_parcels/tile_548000_5238000_0.json": {
+      "sha256": "0c3ff3e4b0edf71305a1ac846920868bbe11346f6b2da8942a7f2ad3b5d04f71",
+      "bytes": 579998
+    },
+    "data/raw/kc_parcels/tile_548000_5238000_1000.json": {
+      "sha256": "8f2801fdb3c81d47765e75807b1dd5e592337dc05f8c59440534c2fd168a429d",
+      "bytes": 862460
+    },
+    "data/raw/kc_parcels/tile_548000_5238000_2000.json": {
+      "sha256": "2b1858c6fbf0b61b34f1b2b274d23919120abea8d14d3bf506e044bbfc4574db",
+      "bytes": 228383
+    },
+    "data/raw/kc_parcels/tile_548000_5240000_0.json": {
+      "sha256": "253c9dbde77f9cc2aaeb9091ec5d24485b62e8358e785b9f47622694eed608da",
+      "bytes": 744547
+    },
+    "data/raw/kc_parcels/tile_548000_5240000_1000.json": {
+      "sha256": "3013647d0e01d1b59596e49f01a0a221166cdb4f6d847d3cf3d17e9492397637",
+      "bytes": 602069
+    },
+    "data/raw/kc_parcels/tile_548000_5240000_2000.json": {
+      "sha256": "5c622c4bda0be3340a3c18ad44bd378d08dd91ccc7792136fa26508e8ff738f6",
+      "bytes": 172415
+    },
+    "data/raw/kc_parcels/tile_548000_5242000_0.json": {
+      "sha256": "e1bc0f5438c46b457fad3d49fb67cb4737558e1de0afe3327a3e9529f36958c1",
+      "bytes": 628550
+    },
+    "data/raw/kc_parcels/tile_548000_5242000_1000.json": {
+      "sha256": "67a1728e80428a5881cc5a0f7294c3d26db4dd64dcc7d3a48a3bd39966362c5f",
+      "bytes": 52528
+    },
+    "data/raw/kc_parcels/tile_548000_5244000_0.json": {
+      "sha256": "2f5ad8c2bca0af6b259342eecec5800258dfda6474aea0b819d27815b3aeb9fa",
+      "bytes": 108
+    },
+    "data/raw/kc_parcels/tile_548000_5246000_0.json": {
+      "sha256": "2f5ad8c2bca0af6b259342eecec5800258dfda6474aea0b819d27815b3aeb9fa",
+      "bytes": 108
+    },
+    "data/raw/kc_parcels/tile_548000_5248000_0.json": {
+      "sha256": "2f5ad8c2bca0af6b259342eecec5800258dfda6474aea0b819d27815b3aeb9fa",
+      "bytes": 108
+    },
+    "data/raw/kc_parcels/tile_548000_5250000_0.json": {
+      "sha256": "434dcffa450ac18e06bff987a897ab970948180edf4ed7231159ac08a7851400",
+      "bytes": 111677
+    },
+    "data/raw/kc_parcels/tile_548000_5252000_0.json": {
+      "sha256": "463b720f9b47f0a552e4fa74e91f3a27dff527ac3771ecd592804ae126020054",
+      "bytes": 684928
+    },
+    "data/raw/kc_parcels/tile_548000_5254000_0.json": {
+      "sha256": "92e3dba277a8b681d1f1c5ebb3a76e01e7a922bde2a406df408b5de6abcf4f67",
+      "bytes": 934762
+    },
+    "data/raw/kc_parcels/tile_548000_5254000_1000.json": {
+      "sha256": "d459a383f34dfab0dd248e90d1503b9184adae3d5f1fa6a3032c59ba6a9194a9",
+      "bytes": 714395
+    },
+    "data/raw/kc_parcels/tile_548000_5256000_0.json": {
+      "sha256": "1626aa1a8dddacb4bdc533b0dea238b949f3157e964976bf80a61a42ac3f250e",
+      "bytes": 540484
+    },
+    "data/raw/kc_parcels/tile_548000_5256000_1000.json": {
+      "sha256": "e684d99d4b20ec485f955a971267e8802a73b93871c0c8f5a4201133ff46a219",
+      "bytes": 899776
+    },
+    "data/raw/kc_parcels/tile_548000_5256000_2000.json": {
+      "sha256": "c30ab8327e8580450a2f458332956e9ac4cfa3893d7ec9127cd66c91ec73a3af",
+      "bytes": 293811
+    },
+    "data/raw/kc_parcels/tile_548000_5264000_0.json": {
+      "sha256": "b79583166ed4e2c8526a514ca00ef9f77daf40b59f6980f4cd22fd64e2c22569",
+      "bytes": 423314
+    },
+    "data/raw/kc_parcels/tile_548000_5264000_1000.json": {
+      "sha256": "232847e4af0141b599d3348504ef1129bab387d8cea1b591afcddb29300b3ac8",
+      "bytes": 510961
+    },
+    "data/raw/kc_parcels/tile_548000_5264000_2000.json": {
+      "sha256": "cb415d363a79e2b2475dc08dcc392de045c405371549951282214b1d78f2edcf",
+      "bytes": 282095
+    },
+    "data/raw/kc_parcels/tile_548000_5266000_0.json": {
+      "sha256": "3a3d3d84f6a4441e30d3f6c1b886cebec10972971e4f35623f94c5aea58d1c92",
+      "bytes": 675472
+    },
+    "data/raw/kc_parcels/tile_548000_5266000_1000.json": {
+      "sha256": "2958b94137c842fa7b9c1c785400ad7159680b1e58bf835d4d786de8d26e192a",
+      "bytes": 193262
+    },
+    "data/raw/kc_parcels/tile_548000_5268000_0.json": {
+      "sha256": "9f6437912e3adaa92c9fc66e4bb6bce09684ac5f2736de87bc055a6ae3d28e73",
+      "bytes": 694018
+    },
+    "data/raw/kc_parcels/tile_548000_5270000_0.json": {
+      "sha256": "2975189f3fcd596c6a3aceb4a3999e65ec2151ef0574a9584cd9ff44539bd0e2",
+      "bytes": 197521
+    },
+    "data/raw/kc_parcels/tile_548000_5272000_0.json": {
+      "sha256": "58bd61d569f3d08125fc81e0b0e17c7f477640eed808beae1e2796b3d5431282",
+      "bytes": 351595
+    },
+    "data/raw/kc_parcels/tile_548000_5274000_0.json": {
+      "sha256": "91f335456e9ad742f8bbdc6cef416058b848d0697c031df75ceddd1b45ac423b",
+      "bytes": 411729
+    },
+    "data/raw/kc_parcels/tile_548000_5274000_1000.json": {
+      "sha256": "1d808361d3d9511bac2adabd69d928e9cc3d5333c9220f6f7827de71c2fc8e4b",
+      "bytes": 448829
+    },
+    "data/raw/kc_parcels/tile_548000_5274000_2000.json": {
+      "sha256": "7b38a15e41841512351e024ba4ee4bf1eaa24fee46adc9d0bf259299e47dc36b",
+      "bytes": 228308
+    },
+    "data/raw/kc_parcels/tile_548000_5276000_0.json": {
+      "sha256": "48ce049b515a58f37d9f51d50b3d471145642cc4e783f9c12938d76e30c6c043",
+      "bytes": 426533
+    },
+    "data/raw/kc_parcels/tile_548000_5276000_1000.json": {
+      "sha256": "b23257b8f4376ea32694c6e2b4219b9b61296320cab08a21c11da8c425802fc7",
+      "bytes": 346156
+    },
+    "data/raw/kc_parcels/tile_548000_5276000_2000.json": {
+      "sha256": "9ef15c1cc51b0f29e664cae83f9619d3b98b697ded6de3a923cfec3e845af81f",
+      "bytes": 376669
+    },
+    "data/raw/kc_parcels/tile_548000_5276000_3000.json": {
+      "sha256": "4c39a7423fb8002b380aa39700c85783d97438d0b43097511240dd3997edc485",
+      "bytes": 434241
+    },
+    "data/raw/kc_parcels/tile_548000_5276000_4000.json": {
+      "sha256": "09a0083edb5b84bd580fd21e556c8630201f16a3b2a88c082e6ccf45910e79bd",
+      "bytes": 71798
+    },
+    "data/raw/kc_parcels/tile_548000_5278000_0.json": {
+      "sha256": "95d93572845c2f4003d203d6863d57580f31952f9a100dea7e24d28bf5d9d190",
+      "bytes": 422927
+    },
+    "data/raw/kc_parcels/tile_548000_5278000_1000.json": {
+      "sha256": "4ed307f9812876040e037594e5e6392442eedd29368331e4cb9a748f4f980879",
+      "bytes": 354000
+    },
+    "data/raw/kc_parcels/tile_548000_5278000_2000.json": {
+      "sha256": "b3b7f18c7e5fa8fac50bef5dca0b3c89e118aa8777bc1c414f0d43a2e1200960",
+      "bytes": 381807
+    },
+    "data/raw/kc_parcels/tile_548000_5278000_3000.json": {
+      "sha256": "6b25601ce299e2d1e4cbc5c140b973190834f1a587ca919489cf6ee48f377ac8",
+      "bytes": 364155
+    },
+    "data/raw/kc_parcels/tile_548000_5278000_4000.json": {
+      "sha256": "6b1ce8627a261506abc895d1ccd6dbb881ab772ff2f53bd6103e2b208551f255",
+      "bytes": 333220
+    },
+    "data/raw/kc_parcels/tile_548000_5278000_5000.json": {
+      "sha256": "2432c7aac558bbad324738b8a90155b58c0948113a7ded31e12830270faf5dfa",
+      "bytes": 406855
+    },
+    "data/raw/kc_parcels/tile_548000_5280000_0.json": {
+      "sha256": "8d2153d795fc8367080754dba924aee76fe334b9e35be4e04131538be009b998",
+      "bytes": 383612
+    },
+    "data/raw/kc_parcels/tile_548000_5280000_1000.json": {
+      "sha256": "14f797dfe238995a364473a4886763909f54dc7fa32c0da4d9f7bf8900bc263b",
+      "bytes": 345996
+    },
+    "data/raw/kc_parcels/tile_548000_5280000_2000.json": {
+      "sha256": "fa7a2ba2cac62e773ea8f1d4764fca61e3f0e3ac1a6750e2874f167526160dc4",
+      "bytes": 332024
+    },
+    "data/raw/kc_parcels/tile_548000_5280000_3000.json": {
+      "sha256": "e9416217e80762ac4e1c5c172c47cb64f7a7a668e8b1c0342ca4e0bf71734fe0",
+      "bytes": 333047
+    },
+    "data/raw/kc_parcels/tile_548000_5280000_4000.json": {
+      "sha256": "b4b75fb8d46a752246ee5b69d97271a52687274ff78f1bca91ab02d8d63ae3e8",
+      "bytes": 466399
+    },
+    "data/raw/kc_parcels/tile_548000_5282000_0.json": {
+      "sha256": "997a6eec2d901d99a697889b5908a598df4b293387e2d4256566b4510f6a354f",
+      "bytes": 347731
+    },
+    "data/raw/kc_parcels/tile_548000_5282000_1000.json": {
+      "sha256": "54c15e83c97de031976d1d6423b2568d0a8f0a8269a7f6e8a0371dfe5b4a9be8",
+      "bytes": 355898
+    },
+    "data/raw/kc_parcels/tile_548000_5282000_2000.json": {
+      "sha256": "13c5495f87e9443ceb22dd4ec7da0218a414e88d009f45b7d77a3a2edef9e4dd",
+      "bytes": 459655
+    },
+    "data/raw/kc_parcels/tile_548000_5282000_3000.json": {
+      "sha256": "783a3f5e04d741140fb42ac5afaee13302310d2926bb8a38006a81d68ed0a3b0",
+      "bytes": 366006
+    },
+    "data/raw/kc_parcels/tile_548000_5282000_4000.json": {
+      "sha256": "3fa0a228f22306822bbfa9e2624d4a0cd14f28ebbaf88fadf617a975f9f5044e",
+      "bytes": 347146
+    },
+    "data/raw/kc_parcels/tile_548000_5282000_5000.json": {
+      "sha256": "eb27af903eb615a11616f50d3d9c667b116aa91354390d97095a345c2d98e89c",
+      "bytes": 248757
+    },
+    "data/raw/kc_parcels/tile_548000_5284000_0.json": {
+      "sha256": "dac05c9d4873108f300ff8d2947b94dac480044128b5b5ab03b6975d6cfb3673",
+      "bytes": 363950
+    },
+    "data/raw/kc_parcels/tile_548000_5284000_1000.json": {
+      "sha256": "240d1b778e9717ae3c2c0c387c90bd16b900dc5cc9ff65ce923545adcae2c76c",
+      "bytes": 357887
+    },
+    "data/raw/kc_parcels/tile_548000_5284000_2000.json": {
+      "sha256": "ad6492f3f47f1a363eae1b6a454a39bedbeafe0fb20301a65099e31675049137",
+      "bytes": 332036
+    },
+    "data/raw/kc_parcels/tile_548000_5286000_0.json": {
+      "sha256": "e993f387310f63f4f23e48915baabb06e155e0f86899b06beed85d50ac893969",
+      "bytes": 409751
+    },
+    "data/raw/kc_parcels/tile_548000_5286000_1000.json": {
+      "sha256": "970a70d0af16f1531eccb2b69b3eb096d93c1913d4e5b22b6a187d7d9f826949",
+      "bytes": 385015
+    },
+    "data/raw/kc_parcels/tile_548000_5286000_2000.json": {
+      "sha256": "1355bac97ee5987f68e3f5cb3036b0bee0a400c2d85019d690cc33601511fd07",
+      "bytes": 431599
+    },
+    "data/raw/kc_parcels/tile_548000_5286000_3000.json": {
+      "sha256": "8e41c5d23b83bc411b2d7af14b5fe68e4cff9b08882c28a5f8fe5208fee1cd3b",
+      "bytes": 122283
+    },
+    "data/raw/kc_parcels/tile_548000_5288000_0.json": {
+      "sha256": "e1cbd084f2cc554662a7df7bbc59ff5ae803723ad28b02190dfce00c7e1d930c",
+      "bytes": 465932
+    },
+    "data/raw/kc_parcels/tile_548000_5288000_1000.json": {
+      "sha256": "9b9497ccd985307824bdf2550ab0969a8bc7e6dc54d57c4aa3e8adb5318c1cde",
+      "bytes": 441170
+    },
+    "data/raw/kc_parcels/tile_548000_5288000_2000.json": {
+      "sha256": "3c1e9098cd31b2191d2031e6f3a08319f7aa1690f98d7b5f7562ff1bc8f4e834",
+      "bytes": 480698
+    },
+    "data/raw/kc_parcels/tile_548000_5290000_0.json": {
+      "sha256": "f20b2aa739a055e3d28149391bfa6cbbe977671bb3b66789b9ab318b76181ceb",
+      "bytes": 404710
+    },
+    "data/raw/kc_parcels/tile_548000_5290000_1000.json": {
+      "sha256": "7c42635faa3b1117f33b2d8af92082d1ca3a9ae37c475fb8ba25e442e7ceee82",
+      "bytes": 425852
+    },
+    "data/raw/kc_parcels/tile_548000_5290000_2000.json": {
+      "sha256": "b6d2132e2a024234d9f9301a29d648a983f5eb974d872438d70a83667c83d64b",
+      "bytes": 355093
+    },
+    "data/raw/kc_parcels/tile_548000_5292000_0.json": {
+      "sha256": "2f5ad8c2bca0af6b259342eecec5800258dfda6474aea0b819d27815b3aeb9fa",
+      "bytes": 108
+    },
+    "data/raw/kc_parcels/tile_550000_5236000_0.json": {
+      "sha256": "829184b03822dea0ba010076c9c46130ccec96d5278b04d94027204a1299d159",
+      "bytes": 459807
+    },
+    "data/raw/kc_parcels/tile_550000_5238000_0.json": {
+      "sha256": "1877a3980210b84620b8e691b8fcc9a6461e7245382f9c316a929cb2d026e302",
+      "bytes": 954028
+    },
+    "data/raw/kc_parcels/tile_550000_5240000_0.json": {
+      "sha256": "23d8d0f92f7f8e06c196e056fd1e3dd5d2b0846f90b430e9fba026e26a754a52",
+      "bytes": 687979
+    },
+    "data/raw/kc_parcels/tile_550000_5240000_1000.json": {
+      "sha256": "af7ec1f0cf38f8f842c64636bf913c23d7619eb52ba89aba40273fd75fbbd2ea",
+      "bytes": 542149
+    },
+    "data/raw/kc_parcels/tile_550000_5242000_0.json": {
+      "sha256": "a27956151fa9ba902ac75f94dffd722bf4d4a58716b6a87929e2ccfe601f17cb",
+      "bytes": 573940
+    },
+    "data/raw/kc_parcels/tile_550000_5242000_1000.json": {
+      "sha256": "d2ae9486e38fccf63a85d5314de4c685e9b892abb64ebe3f9fe315e8f41bcf51",
+      "bytes": 538430
+    },
+    "data/raw/kc_parcels/tile_550000_5242000_2000.json": {
+      "sha256": "0b048b103f48c04127a038bd7a55bf4390dae11b16bea73204a983313664def2",
+      "bytes": 63947
+    },
+    "data/raw/kc_parcels/tile_550000_5244000_0.json": {
+      "sha256": "a7fa528432a0a5688ee3009fdfd762646aa521c7f1e13461df42fccc1c8f1880",
+      "bytes": 746683
+    },
+    "data/raw/kc_parcels/tile_550000_5244000_1000.json": {
+      "sha256": "1ce73d1a35ceba4ed8ce9467137b547c2b5dcf2b2d3ff39391344153c031b8ff",
+      "bytes": 85681
+    },
+    "data/raw/kc_parcels/tile_550000_5246000_0.json": {
+      "sha256": "9f9ed06ec3d0695f91c81df4bd6b571eb9ff3142136f0246ca2a83d707cc280d",
+      "bytes": 1488719
+    },
+    "data/raw/kc_parcels/tile_550000_5246000_1000.json": {
+      "sha256": "3a84d08de22d521891e0fa4c5c3262c1ab526f9c4ec9644e5b7144e5da31eaef",
+      "bytes": 963255
+    },
+    "data/raw/kc_parcels/tile_550000_5248000_0.json": {
+      "sha256": "db3dd5f6c4f67a2684803b5b01ff3ef530b56c5d5afd407df5e242e8c4c65234",
+      "bytes": 843933
+    },
+    "data/raw/kc_parcels/tile_550000_5248000_1000.json": {
+      "sha256": "fbef35ecd20ca365ee9afcc3c061c25b2860dcd5e4688414784ffa11d6dc7c88",
+      "bytes": 425407
+    },
+    "data/raw/kc_parcels/tile_550000_5250000_0.json": {
+      "sha256": "ab982d2df448e7dd4ed57d66b47122097fdaa2359ede2a6468c9d4e505447e5a",
+      "bytes": 432221
+    },
+    "data/raw/kc_parcels/tile_550000_5250000_1000.json": {
+      "sha256": "9a3c27533a41a14b51b196c5f2f33231cc64f21f312f13c35422f0a91171085b",
+      "bytes": 475737
+    },
+    "data/raw/kc_parcels/tile_550000_5250000_2000.json": {
+      "sha256": "82475949d66ac5ee77764117e1614e46d4677a76c2151ea6bfa8c5fa5d8f0021",
+      "bytes": 48798
+    },
+    "data/raw/kc_parcels/tile_550000_5252000_0.json": {
+      "sha256": "1597761e85a20c6d7e752c33cc51083eef42fc4d2d4e9c6e36d4a97579210a30",
+      "bytes": 422167
+    },
+    "data/raw/kc_parcels/tile_550000_5252000_1000.json": {
+      "sha256": "c2510b7164dfcdadf087d15cd0448544f4c6e6f4275d126d91a0f83bbbd2522f",
+      "bytes": 519588
+    },
+    "data/raw/kc_parcels/tile_550000_5252000_2000.json": {
+      "sha256": "6c7ab59bd216fd230d455ebfa4178f60f66e7648b0dc186abd926544898d6108",
+      "bytes": 14815
+    },
+    "data/raw/kc_parcels/tile_550000_5254000_0.json": {
+      "sha256": "0b145d9b79fcfbfa0ec55b7b9a34213b48814d5bd236e9668b62383a7f7e8704",
+      "bytes": 461084
+    },
+    "data/raw/kc_parcels/tile_550000_5256000_0.json": {
+      "sha256": "d222eec557b6bc33e074431e6131d0b7764ba145cfff47bf41e6de708a67bf42",
+      "bytes": 546759
+    },
+    "data/raw/kc_parcels/tile_550000_5258000_0.json": {
+      "sha256": "c11622cfbe42f47698cb0bf847c20a6e5979ac24da4e4b13d4e9b25675dab3ce",
+      "bytes": 392157
+    },
+    "data/raw/kc_parcels/tile_550000_5258000_1000.json": {
+      "sha256": "4e37099ebc5c4a59539bb131111e0dd8918daf6bbf12418e0008ab50bc126983",
+      "bytes": 338004
+    },
+    "data/raw/kc_parcels/tile_550000_5258000_2000.json": {
+      "sha256": "822c33cd8e8a29fd459ec3251c86ccc2d83ab1ceb93498915b03ef00b5fc84e7",
+      "bytes": 123627
+    },
+    "data/raw/kc_parcels/tile_550000_5260000_0.json": {
+      "sha256": "3cc84ac1dfc7b90220233f4afc21899727ce021c1d4ba2b69aea606c958ab5ae",
+      "bytes": 343795
+    },
+    "data/raw/kc_parcels/tile_550000_5260000_1000.json": {
+      "sha256": "039d0ee9d7cfc62ee4e9ab59613c284b5bbabf95be610492ded6ae3b158afb11",
+      "bytes": 403092
+    },
+    "data/raw/kc_parcels/tile_550000_5260000_2000.json": {
+      "sha256": "7b652858d6f6a5975c435275dc7f0439e0115807564f8e59ece430f5ac1408e2",
+      "bytes": 201761
+    },
+    "data/raw/kc_parcels/tile_550000_5262000_0.json": {
+      "sha256": "1dc9866163aa42288b830ff20865f468ec4362f4e2f1559bc45f1b7bb85dbf84",
+      "bytes": 389468
+    },
+    "data/raw/kc_parcels/tile_550000_5262000_1000.json": {
+      "sha256": "69c45b5d461cd4830e5fb2f7792e4f3e26a19b425cf353560b8697d46b8bd471",
+      "bytes": 506271
+    },
+    "data/raw/kc_parcels/tile_550000_5262000_2000.json": {
+      "sha256": "c1e477d2da85d7a5fa4c2e9d31c8411329ca27e3d34b530070ec19468f2dd1fa",
+      "bytes": 26803
+    },
+    "data/raw/kc_parcels/tile_550000_5264000_0.json": {
+      "sha256": "5c821de9ba923f77eb2e38414f98ef36517c11cea9c8b39bb18bf8228c7b3052",
+      "bytes": 528581
+    },
+    "data/raw/kc_parcels/tile_550000_5264000_1000.json": {
+      "sha256": "148041e6e033ab4cba3b60c0bda6a3c9d25f9eca1a1136dee1bcd35ed00d5bf5",
+      "bytes": 102076
+    },
+    "data/raw/kc_parcels/tile_550000_5266000_0.json": {
+      "sha256": "3693e5c2fbae2e1678975024167e6c95af19afedc5e4abe7b9392acb7b5bb39a",
+      "bytes": 588575
+    },
+    "data/raw/kc_parcels/tile_550000_5266000_1000.json": {
+      "sha256": "d1c366a812cb11a01f9ce26fad6d895595f64831010412b67d405d5cdd4931a8",
+      "bytes": 657135
+    },
+    "data/raw/kc_parcels/tile_550000_5266000_2000.json": {
+      "sha256": "8ad6a11f6dd4e1052dba0e3b69e7555eb34b3a097c155ba2d61733ddb9e9ce19",
+      "bytes": 26134
+    },
+    "data/raw/kc_parcels/tile_550000_5268000_0.json": {
+      "sha256": "705330b57a4b8245fd065cb5ba57729e5584bc07cdaa3d61def16c8a1d9ed22c",
+      "bytes": 686769
+    },
+    "data/raw/kc_parcels/tile_550000_5268000_1000.json": {
+      "sha256": "0c3920b72e5fdbcb8308112f63880085952b3c569fc87a09cf28960e022b2718",
+      "bytes": 470089
+    },
+    "data/raw/kc_parcels/tile_550000_5270000_0.json": {
+      "sha256": "b0bc4e7d8545e5b0e5acd2ac01d396d02d21d1e4119b40338c560ff61e86396c",
+      "bytes": 574602
+    },
+    "data/raw/kc_parcels/tile_550000_5270000_1000.json": {
+      "sha256": "caf30e154caf109de45c11e600e66d22ca7cf9631860bf4c4c4293831e6c48f0",
+      "bytes": 374237
+    },
+    "data/raw/kc_parcels/tile_550000_5270000_2000.json": {
+      "sha256": "7166eb77797ea50ecce51082fa2b06b5fe8aefc0fc493c5288f5babc946172b6",
+      "bytes": 203063
+    },
+    "data/raw/kc_parcels/tile_550000_5272000_0.json": {
+      "sha256": "cca070d7fade520f8b305631738831636df8927132653993ed1bb62df96ac703",
+      "bytes": 364655
+    },
+    "data/raw/kc_parcels/tile_550000_5272000_1000.json": {
+      "sha256": "6859a7e69795460fb508617443f8e7f2efbf04b631300692fbf86b4a7695b93e",
+      "bytes": 361041
+    },
+    "data/raw/kc_parcels/tile_550000_5272000_2000.json": {
+      "sha256": "65de5e3586683cb3a33fc6491cb2e144c4cf51073a7f0c09ef89235e9f93b7f7",
+      "bytes": 427223
+    },
+    "data/raw/kc_parcels/tile_550000_5272000_3000.json": {
+      "sha256": "3a4d825b8e2ef9d16d34c3e6bd5f4082dd117aeb892e593b01bc2e3897524aec",
+      "bytes": 115927
+    },
+    "data/raw/kc_parcels/tile_550000_5274000_0.json": {
+      "sha256": "cd89e77d2650d78bc2d9c815a50d4c14b5c3b1dd34b063cd145b26026a309137",
+      "bytes": 383347
+    },
+    "data/raw/kc_parcels/tile_550000_5274000_1000.json": {
+      "sha256": "20dfab68221f802893d3dd4318d8926afe1dfe2cbd51bba1736e7c811de0fdba",
+      "bytes": 361911
+    },
+    "data/raw/kc_parcels/tile_550000_5274000_2000.json": {
+      "sha256": "1a190e9a605920380b3fa283fa20277ffb2cc4ca9abd79e4359ad267e8578c21",
+      "bytes": 455926
+    },
+    "data/raw/kc_parcels/tile_550000_5274000_3000.json": {
+      "sha256": "9793a412cb6809bc6588b5fc2a20248d990008c1dde98b9f241fbfc8ecca6ea0",
+      "bytes": 161410
+    },
+    "data/raw/kc_parcels/tile_550000_5276000_0.json": {
+      "sha256": "2a19d13b9f430d0c32a1a56197f32cc8eeb2ffe5b9f31e71663f5215b8351524",
+      "bytes": 373772
+    },
+    "data/raw/kc_parcels/tile_550000_5276000_1000.json": {
+      "sha256": "ff3078528c13e5d64eafb4fc4ae4f5a03146e5bd7d664dd8e6b254f12800eae4",
+      "bytes": 414368
+    },
+    "data/raw/kc_parcels/tile_550000_5276000_2000.json": {
+      "sha256": "9d7662950c117b7e2a3a4c0379c0cc7d2db86c4e15131ed2e7b4449a8fb33c7a",
+      "bytes": 518364
+    },
+    "data/raw/kc_parcels/tile_550000_5278000_0.json": {
+      "sha256": "674e30921bea901e3158c4a34db1b5a8d033bd3c8ab12a3e63507fa0c3c0c9f3",
+      "bytes": 356841
+    },
+    "data/raw/kc_parcels/tile_550000_5278000_1000.json": {
+      "sha256": "ffa998a07c48e40e8644fcf4aec27560a3772f0c4aa58d56800475ec2eb0bf59",
+      "bytes": 346693
+    },
+    "data/raw/kc_parcels/tile_550000_5278000_2000.json": {
+      "sha256": "9d69f7557363e12d483463b0083ce3f234a4fdc0d3ec5f61a2e0b369d2003c13",
+      "bytes": 418929
+    },
+    "data/raw/kc_parcels/tile_550000_5278000_3000.json": {
+      "sha256": "f00b4c596e219c01ee62f2593b8897dd224f18860cb8f4a14c7f9d557602404a",
+      "bytes": 315947
+    },
+    "data/raw/kc_parcels/tile_550000_5278000_4000.json": {
+      "sha256": "be4430fdd5a403b791757c903168ad12c56059f61f6c59821d66ebfdb6777ccb",
+      "bytes": 486873
+    },
+    "data/raw/kc_parcels/tile_550000_5280000_0.json": {
+      "sha256": "19144231f777970ea06bd5e6303d22636f61d08246069201c742cf0d354bc44b",
+      "bytes": 363809
+    },
+    "data/raw/kc_parcels/tile_550000_5280000_1000.json": {
+      "sha256": "428791eebc7bbefd7bb5f44b02b1ffc1bc2f21988d291e202a33dfdda6b5df3d",
+      "bytes": 373458
+    },
+    "data/raw/kc_parcels/tile_550000_5280000_2000.json": {
+      "sha256": "d647d28cb86e83735b63734059597ae2b7288cd959bea029b964cf29db22146a",
+      "bytes": 405539
+    },
+    "data/raw/kc_parcels/tile_550000_5280000_3000.json": {
+      "sha256": "fb4f64d503c11cb88e89fc77c5716961f394926b720fffe02d8f8da2f07449d4",
+      "bytes": 348239
+    },
+    "data/raw/kc_parcels/tile_550000_5280000_4000.json": {
+      "sha256": "88d38aa06743c9ea8c082f06ea5d1a45d375edb30ccd92f2f398a38a625f22ae",
+      "bytes": 366386
+    },
+    "data/raw/kc_parcels/tile_550000_5280000_5000.json": {
+      "sha256": "4343d2db31c211e4bfe1ef965acaf3d4621ccba3f8ff82453259c8cbb28480ba",
+      "bytes": 202192
+    },
+    "data/raw/kc_parcels/tile_550000_5282000_0.json": {
+      "sha256": "58333465bca47a73bc5ecb769f77ad57ac593469c963e1e560949ea9a775fb8b",
+      "bytes": 417939
+    },
+    "data/raw/kc_parcels/tile_550000_5282000_1000.json": {
+      "sha256": "f9845ad003186e57086fac7f2bd5ee356dfa5de0d859ab5c2a2f92fbe0230acb",
+      "bytes": 330518
+    },
+    "data/raw/kc_parcels/tile_550000_5282000_2000.json": {
+      "sha256": "d023b24865975f3cc08b7790f5ffd19f237ed5e3515e2fff2c81c604c18b134a",
+      "bytes": 369582
+    },
+    "data/raw/kc_parcels/tile_550000_5282000_3000.json": {
+      "sha256": "5d6175a54f811107eb1aaea90ccf910277c9f5cc113a20e7827c8f0afabff5cf",
+      "bytes": 376871
+    },
+    "data/raw/kc_parcels/tile_550000_5284000_0.json": {
+      "sha256": "1c2f530b592564039e81e4d91460330f86c756283dfa3857b4d3668a06dd4ae5",
+      "bytes": 379358
+    },
+    "data/raw/kc_parcels/tile_550000_5284000_1000.json": {
+      "sha256": "8bc62e8baf939222cb2674b8bda4be2bb256e03f497275df1072e7112503c391",
+      "bytes": 411765
+    },
+    "data/raw/kc_parcels/tile_550000_5284000_2000.json": {
+      "sha256": "a7952aa916b328a5f02b2d6ce85660a328c6e81508fb86169d66a2b9e7b4dc8b",
+      "bytes": 396540
+    },
+    "data/raw/kc_parcels/tile_550000_5284000_3000.json": {
+      "sha256": "df4c057734f1c0b587d131bf4b789db907a81ca9f93e1756151ce716df6fd1d6",
+      "bytes": 224415
+    },
+    "data/raw/kc_parcels/tile_550000_5286000_0.json": {
+      "sha256": "5f8b014bde4bbe353ee119ab8e1cc08b07ab85a54f54b91023c031926e83af66",
+      "bytes": 369881
+    },
+    "data/raw/kc_parcels/tile_550000_5286000_1000.json": {
+      "sha256": "1786da51e82febb2fc6b080a004dfbf7ba67688ea79787e5ddc7be487f345b35",
+      "bytes": 592425
+    },
+    "data/raw/kc_parcels/tile_550000_5286000_2000.json": {
+      "sha256": "cc83ad9bb466e0a64ea7c441101ca5d7c01dc6fd2df082ec0a54d7128b42cb7d",
+      "bytes": 171368
+    },
+    "data/raw/kc_parcels/tile_550000_5288000_0.json": {
+      "sha256": "5973b0c0757eadefbcb86e11410052a881a932e19f287fcefa0bf1cf598b87e4",
+      "bytes": 378890
+    },
+    "data/raw/kc_parcels/tile_550000_5288000_1000.json": {
+      "sha256": "01e2d899254e14f72d5abb79110b7f0094a0120b0f84789126bf99d5ffb7cbf2",
+      "bytes": 374687
+    },
+    "data/raw/kc_parcels/tile_550000_5288000_2000.json": {
+      "sha256": "aa22831c5721f8e29b42e23cb202e071e1f7307da8ce54191466044e702a56aa",
+      "bytes": 396158
+    },
+    "data/raw/kc_parcels/tile_550000_5288000_3000.json": {
+      "sha256": "d3aaecef9c68ba2c85e1b0bb396f3380610c2296c786acb77787d9fdd16424a4",
+      "bytes": 73217
+    },
+    "data/raw/kc_parcels/tile_550000_5290000_0.json": {
+      "sha256": "fd658a963b6dfbe1760068dfc8275ea11a33e6f30af790d1c23ccd55b1276075",
+      "bytes": 416018
+    },
+    "data/raw/kc_parcels/tile_550000_5290000_1000.json": {
+      "sha256": "d3d36505cf40260d0e15a5b7e870db381c68e4e8f884639a343a3dba3b25b77d",
+      "bytes": 408832
+    },
+    "data/raw/kc_parcels/tile_550000_5290000_2000.json": {
+      "sha256": "624cb734148268b583105a6352a2fad1e85fca13a744d779037e9e82f23481ea",
+      "bytes": 127487
+    },
+    "data/raw/kc_parcels/tile_550000_5292000_0.json": {
+      "sha256": "2f5ad8c2bca0af6b259342eecec5800258dfda6474aea0b819d27815b3aeb9fa",
+      "bytes": 108
+    },
+    "data/raw/kc_parcels/tile_552000_5236000_0.json": {
+      "sha256": "7fb38c3de63af5279a00d6e41293165889010823e20ab767462ff223d8003901",
+      "bytes": 601992
+    },
+    "data/raw/kc_parcels/tile_552000_5236000_1000.json": {
+      "sha256": "da94c1f471e961d70476e55f5247f1c0520d21fff7b7f0c9711570e4c67121c1",
+      "bytes": 181305
+    },
+    "data/raw/kc_parcels/tile_552000_5238000_0.json": {
+      "sha256": "cadea2a8a923cd0e93de24ef4547d39a16a82d7ae0450701255ad20744131f3d",
+      "bytes": 631368
+    },
+    "data/raw/kc_parcels/tile_552000_5240000_0.json": {
+      "sha256": "c9af9581b7cfcbd315fd4e7880dd6715a7b948ce5e8ff11fb2afdd898f958e4e",
+      "bytes": 563347
+    },
+    "data/raw/kc_parcels/tile_552000_5242000_0.json": {
+      "sha256": "4d6f95163a538b128502382b45eb9b5c45ce3de0ef5e9c10cb39f8fb363b0c32",
+      "bytes": 629084
+    },
+    "data/raw/kc_parcels/tile_552000_5242000_1000.json": {
+      "sha256": "192dd21fddd1827f5cad77fb7c1ab1886c60fbda59c58ee35d4ff1331891d1ae",
+      "bytes": 652539
+    },
+    "data/raw/kc_parcels/tile_552000_5242000_2000.json": {
+      "sha256": "3466894565f89b7d97d172449af17beb92b5edb618c3682bbeb77c93edf06aff",
+      "bytes": 226882
+    },
+    "data/raw/kc_parcels/tile_552000_5244000_0.json": {
+      "sha256": "e8350b628cdde9c922020e6e4d417212b5ca130daaec074b697b98426c139253",
+      "bytes": 693840
+    },
+    "data/raw/kc_parcels/tile_552000_5244000_1000.json": {
+      "sha256": "25fd38ece67c3adc596a4d1afcc0f8113a6c9adfd5509037bec3509e14267a02",
+      "bytes": 686652
+    },
+    "data/raw/kc_parcels/tile_552000_5246000_0.json": {
+      "sha256": "17980a75ce58a2267270ec65569019dcbddeccbad1589d36410cb01b6a38538e",
+      "bytes": 454202
+    },
+    "data/raw/kc_parcels/tile_552000_5246000_1000.json": {
+      "sha256": "3988d215e19732cb7c485e0689734b1ac4b0402565f80b5660fa89eddd12ed3f",
+      "bytes": 460722
+    },
+    "data/raw/kc_parcels/tile_552000_5246000_2000.json": {
+      "sha256": "de24aa42856939647572b3a8287d98f343e237ed81b04d6586f77cdc52b28e95",
+      "bytes": 86277
+    },
+    "data/raw/kc_parcels/tile_552000_5248000_0.json": {
+      "sha256": "bd9450d7fe93477b271ecc1583cd57258436173cb99606150b61a6b6bb323b3a",
+      "bytes": 443963
+    },
+    "data/raw/kc_parcels/tile_552000_5248000_1000.json": {
+      "sha256": "c41421ed8f3976ded03f274832ccc7496bdd645876ed22923b56308f469256c2",
+      "bytes": 315391
+    },
+    "data/raw/kc_parcels/tile_552000_5250000_0.json": {
+      "sha256": "99606cdedbd920dd06c05b6722c4e599b007d417efd845e11049853a551100c0",
+      "bytes": 507788
+    },
+    "data/raw/kc_parcels/tile_552000_5252000_0.json": {
+      "sha256": "a15bd48b771f4fa0a969d5e3fcdedc507364895cfb73c05c411e2ad53f5dea40",
+      "bytes": 1476974
+    },
+    "data/raw/kc_parcels/tile_552000_5254000_0.json": {
+      "sha256": "76aa6818b9cff4bd50f7341f9ca6ca275a709aea0ec9807a1cff57c7570a6c40",
+      "bytes": 461762
+    },
+    "data/raw/kc_parcels/tile_552000_5256000_0.json": {
+      "sha256": "23072bf83a83b1802ecf50adabf93eb0eed50d467175d984672b081b5ea85875",
+      "bytes": 563525
+    },
+    "data/raw/kc_parcels/tile_552000_5256000_1000.json": {
+      "sha256": "7349d790e190bc6abb02fe287a3498d48667dc546f8fb964b3baf1cc95baf748",
+      "bytes": 35919
+    },
+    "data/raw/kc_parcels/tile_552000_5258000_0.json": {
+      "sha256": "920a322f30cdb74771ed9cbe038f3363d41d4ceab8318c03d598545837bd1615",
+      "bytes": 501164
+    },
+    "data/raw/kc_parcels/tile_552000_5258000_1000.json": {
+      "sha256": "7fefd89b74fcf2f18aee9ba6dc8624287090ead784a7e36b1093d9fc10b5550d",
+      "bytes": 601176
+    },
+    "data/raw/kc_parcels/tile_552000_5258000_2000.json": {
+      "sha256": "7592fbe0199d3841e632753ca021f8b637406b95d94e581772142164994de44c",
+      "bytes": 148786
+    },
+    "data/raw/kc_parcels/tile_552000_5260000_0.json": {
+      "sha256": "632bd8287a41452c49c276bdff29566fe6367a8f68f1eda57d15c1064ee4bf49",
+      "bytes": 617020
+    },
+    "data/raw/kc_parcels/tile_552000_5260000_1000.json": {
+      "sha256": "59492ee477644b4f91d3c264155e1d33c9959543fc1fe5f4ca3a0fb3212caec6",
+      "bytes": 288032
+    },
+    "data/raw/kc_parcels/tile_552000_5262000_0.json": {
+      "sha256": "8ea750cd3b2133a2cf822d0e7c39aea718afe4542177c603200ea89d610b2459",
+      "bytes": 565192
+    },
+    "data/raw/kc_parcels/tile_552000_5264000_0.json": {
+      "sha256": "d2a76fe3f19705d54963550f9cd15c5e5c8163ecc415795bf94efb48f27926b7",
+      "bytes": 514111
+    },
+    "data/raw/kc_parcels/tile_552000_5264000_1000.json": {
+      "sha256": "9240d04091b388a577899fd6cbc9000e32ef189c50d7f4a15b852033486f1401",
+      "bytes": 831013
+    },
+    "data/raw/kc_parcels/tile_552000_5264000_2000.json": {
+      "sha256": "a08b2a3bce017ad9ee962229932bfb0326af968987484d46487f00a910f0041c",
+      "bytes": 227043
+    },
+    "data/raw/kc_parcels/tile_552000_5266000_0.json": {
+      "sha256": "039cd8a13bb6645d06134433d89407ae61beb6ab387ce5e927123d9bd2f9a2b0",
+      "bytes": 379745
+    },
+    "data/raw/kc_parcels/tile_552000_5266000_1000.json": {
+      "sha256": "2a929f94f5809196f27d2d9031b0eb2345d4f9cd209adb0d789c23373b7370d0",
+      "bytes": 509549
+    },
+    "data/raw/kc_parcels/tile_552000_5266000_2000.json": {
+      "sha256": "81ac93078706c51b5ca0221b319c5c5d9b5eece0fdda34bdc37e3565c4ad99db",
+      "bytes": 358593
+    },
+    "data/raw/kc_parcels/tile_552000_5266000_3000.json": {
+      "sha256": "e242b7362b174a69b53179cfe1a0ad4fbf21e524c61c9b8701525a23ebf3cc02",
+      "bytes": 387264
+    },
+    "data/raw/kc_parcels/tile_552000_5266000_4000.json": {
+      "sha256": "5a0c3adf188ecf7ecd32b6f6aff22af269eddb1c6b9bef2ca1a98bac07a41c11",
+      "bytes": 284171
+    },
+    "data/raw/kc_parcels/tile_552000_5268000_0.json": {
+      "sha256": "bd6d754ea3753c2ed43f63b7fbecc5d15ce2cf7710c1bc454cba7c5b7db82bdf",
+      "bytes": 329826
+    },
+    "data/raw/kc_parcels/tile_552000_5268000_1000.json": {
+      "sha256": "5739eee537ac8cf747827e5cfdabb23e9bb16c022998c16a89a6d459c3f926f8",
+      "bytes": 634005
+    },
+    "data/raw/kc_parcels/tile_552000_5268000_2000.json": {
+      "sha256": "f1af631989e5e30a4907163d93a64e28f9e9a8c8d4bb549e9fcb8abe18b97a71",
+      "bytes": 433329
+    },
+    "data/raw/kc_parcels/tile_552000_5268000_3000.json": {
+      "sha256": "2ea58208b9a4c908d052d023e5d9eb028da1ea9df74e124a319fcbbe42d03b43",
+      "bytes": 462061
+    },
+    "data/raw/kc_parcels/tile_552000_5268000_4000.json": {
+      "sha256": "86e947b3be11e2903c426492f2d592a443911a8df8412e3ffd9376cc2fd2f897",
+      "bytes": 92920
+    },
+    "data/raw/kc_parcels/tile_552000_5270000_0.json": {
+      "sha256": "d89d8432b3dad792c5e417dc0044433b6e0195ae4ec6b5c2b823728a7dc87b5b",
+      "bytes": 372159
+    },
+    "data/raw/kc_parcels/tile_552000_5270000_1000.json": {
+      "sha256": "f8b3a4a9a59b665d7eaa68ae509d442978227a7d2f3e151892a9b7328faa2e2d",
+      "bytes": 375522
+    },
+    "data/raw/kc_parcels/tile_552000_5270000_2000.json": {
+      "sha256": "6ac130cca455ab2c506d416b243c16fa7835386b4be3b6fc5d3c7a8642fd6e2e",
+      "bytes": 400689
+    },
+    "data/raw/kc_parcels/tile_552000_5270000_3000.json": {
+      "sha256": "ce1f9dc56c5a2d894670587c4ccd3184dc130924629b96ea2da69b7b5a3f3823",
+      "bytes": 396243
+    },
+    "data/raw/kc_parcels/tile_552000_5270000_4000.json": {
+      "sha256": "f967e125a3e71b94277667e3f37dbb8a076ad92d0cc718684dae4482241c0901",
+      "bytes": 51042
+    },
+    "data/raw/kc_parcels/tile_552000_5272000_0.json": {
+      "sha256": "d2bb248367f9c1efb9b9f6bc3b22b09ff8177b618600ea7bfc0bb9baed9909e0",
+      "bytes": 350031
+    },
+    "data/raw/kc_parcels/tile_552000_5272000_1000.json": {
+      "sha256": "cf524e60d511fd94b819ffb3d17c296a71ade1a07d5add2e7112b0b3c0b62ee7",
+      "bytes": 335461
+    },
+    "data/raw/kc_parcels/tile_552000_5272000_2000.json": {
+      "sha256": "5858dfe31de6a7e24d84e4ea2b6ec4c99961ab133710c4d255620b5b338473f0",
+      "bytes": 331955
+    },
+    "data/raw/kc_parcels/tile_552000_5272000_3000.json": {
+      "sha256": "bad319993818be3f0f23e8561f5de32094321822c7832dae898aaf91387a7ab4",
+      "bytes": 436834
+    },
+    "data/raw/kc_parcels/tile_552000_5272000_4000.json": {
+      "sha256": "909d66d1d9d9110619c7392838242a0f7f0eeba923998f40dbbc24d792ca81e3",
+      "bytes": 422716
+    },
+    "data/raw/kc_parcels/tile_552000_5272000_5000.json": {
+      "sha256": "2c093e844d46a0697f5f9cd9c37029bdb79cef3f95f490defcd7adf5d506d17b",
+      "bytes": 334311
+    },
+    "data/raw/kc_parcels/tile_552000_5274000_0.json": {
+      "sha256": "b04d3cb0e1364cdddc253946a1da16bfc46f9779c998f67e42a33b86ddd4cc32",
+      "bytes": 319771
+    },
+    "data/raw/kc_parcels/tile_552000_5274000_1000.json": {
+      "sha256": "8cf84dd62d9789073f0a15d68745fadb2c54d816bdd0e5f71969d483eead31ad",
+      "bytes": 577242
+    },
+    "data/raw/kc_parcels/tile_552000_5274000_2000.json": {
+      "sha256": "c69f7b1b3b9048d47f35d6e802eff52abd66bcb34ab0496fec37b794c6a0d816",
+      "bytes": 352425
+    },
+    "data/raw/kc_parcels/tile_552000_5274000_3000.json": {
+      "sha256": "943b7b792d406eb1f614ab2e756133e6f03c32e93d57db1742f69fa5d5159b4a",
+      "bytes": 491106
+    },
+    "data/raw/kc_parcels/tile_552000_5274000_4000.json": {
+      "sha256": "662d17aef240c2ec33bc9bafaa1bb7d4535e7992b49cc128ef6b1c32dae9ee13",
+      "bytes": 232190
+    },
+    "data/raw/kc_parcels/tile_552000_5276000_0.json": {
+      "sha256": "042623d22b2fe9b23b90d378a09894fa4a1c752b5982eb8a46da59beaa2ee02c",
+      "bytes": 435185
+    },
+    "data/raw/kc_parcels/tile_552000_5276000_1000.json": {
+      "sha256": "5bd673c3a57c39fd455982f97d0aa4c11ac7d22d978812267aaa1e1607e608e7",
+      "bytes": 449982
+    },
+    "data/raw/kc_parcels/tile_552000_5278000_0.json": {
+      "sha256": "35bcc71cdb7cbc30dc88ba97abb6f676e9a82a83aa41cc24e97801f0a3e36dba",
+      "bytes": 383497
+    },
+    "data/raw/kc_parcels/tile_552000_5278000_1000.json": {
+      "sha256": "88404e6e4edcaf642eef9fb31aec6cbe28f04a0cbace620469daff084c9b8f37",
+      "bytes": 518376
+    },
+    "data/raw/kc_parcels/tile_552000_5278000_2000.json": {
+      "sha256": "efb61e9a5efedac38510f94190c6db15fa2319d6a0eca3918856001aae992fff",
+      "bytes": 664474
+    },
+    "data/raw/kc_parcels/tile_552000_5280000_0.json": {
+      "sha256": "55bc98757be27c326f3c855b662be5d6c7c3d8d2342f08140c782ad348147953",
+      "bytes": 366041
+    },
+    "data/raw/kc_parcels/tile_552000_5280000_1000.json": {
+      "sha256": "16c354dad45cb1fafb4007f44fdf0e37848f5dbf6ea9cf5e285353918009e236",
+      "bytes": 313923
+    },
+    "data/raw/kc_parcels/tile_552000_5280000_2000.json": {
+      "sha256": "3b08de8ebf60f89117568036aa02521e713d1fdf8a205080c053b7ceaaaa7a33",
+      "bytes": 400261
+    },
+    "data/raw/kc_parcels/tile_552000_5280000_3000.json": {
+      "sha256": "38505473d2edcde923689bef8521f1751e2232768b6bb01085bd86c8ec573634",
+      "bytes": 368709
+    },
+    "data/raw/kc_parcels/tile_552000_5280000_4000.json": {
+      "sha256": "68b23893aa198bf73bf5ba1c89abf0380647dbbfba39bd99556b483cc30f22aa",
+      "bytes": 365696
+    },
+    "data/raw/kc_parcels/tile_552000_5280000_5000.json": {
+      "sha256": "e8ea97a188a17ac95aa9669cbdf0d4fd83ccc7a1c346246f8319f1f8bc5b8186",
+      "bytes": 146269
+    },
+    "data/raw/kc_parcels/tile_552000_5282000_0.json": {
+      "sha256": "b0c49a38346c0b40ef3306ffe0102312053408f710fff8ede0f7013017da6881",
+      "bytes": 445355
+    },
+    "data/raw/kc_parcels/tile_552000_5282000_1000.json": {
+      "sha256": "464b3104c9f5df04f56edb7d15a90139c39c998762c8f95caf3ef4f755c880e5",
+      "bytes": 497520
+    },
+    "data/raw/kc_parcels/tile_552000_5282000_2000.json": {
+      "sha256": "9e389271ba7da83127a694a0028906d55bc152fea46fe2c34db32d8a9a8da418",
+      "bytes": 428394
+    },
+    "data/raw/kc_parcels/tile_552000_5282000_3000.json": {
+      "sha256": "e417dcb4c4120fde743d1a9b5696cd224712fe1cb8a47fc0194905761c03d1c7",
+      "bytes": 408762
+    },
+    "data/raw/kc_parcels/tile_552000_5282000_4000.json": {
+      "sha256": "3d7c279752c599e6bb747e40bd1a69fb56d9cf54a2f3b243ed91f3100600ab78",
+      "bytes": 206145
+    },
+    "data/raw/kc_parcels/tile_552000_5284000_0.json": {
+      "sha256": "f2796d08b3d502e7748397adae4c6ea5abb19c87597687602d2d92814afd1136",
+      "bytes": 445839
+    },
+    "data/raw/kc_parcels/tile_552000_5284000_1000.json": {
+      "sha256": "8afd1a8f09beb8a3afca25edadd43a2c94701e5e20bf1dd70445d7d8b9bb70ed",
+      "bytes": 413696
+    },
+    "data/raw/kc_parcels/tile_552000_5284000_2000.json": {
+      "sha256": "c54ef374e559b43d9117c087d4429010133dbbeebf65b567ef74e7f8861426c7",
+      "bytes": 546854
+    },
+    "data/raw/kc_parcels/tile_552000_5284000_3000.json": {
+      "sha256": "1d57014420e733e9cdb296eca4df9049c8fd7214974c1324fb65b6ad971367b6",
+      "bytes": 458707
+    },
+    "data/raw/kc_parcels/tile_552000_5286000_0.json": {
+      "sha256": "cd924773022cf178594c89afcc4b9dedabf19b7e9ddf112f0336237debbef8d3",
+      "bytes": 506938
+    },
+    "data/raw/kc_parcels/tile_552000_5286000_1000.json": {
+      "sha256": "b4c2a2aef8dc78257e6ede0bea6452ce1b755b86ed84d1420685c1d6c70b88c0",
+      "bytes": 423173
+    },
+    "data/raw/kc_parcels/tile_552000_5286000_2000.json": {
+      "sha256": "7fff3b473c0a4bed86ad8ca27a46b05aa2e783d61ea6cb6c02c8451775ed204a",
+      "bytes": 534227
+    },
+    "data/raw/kc_parcels/tile_552000_5288000_0.json": {
+      "sha256": "4a29fb15bba5f58189c844d318870e149ec3f8ecec0e8003f0d7179ec412db86",
+      "bytes": 391029
+    },
+    "data/raw/kc_parcels/tile_552000_5288000_1000.json": {
+      "sha256": "13c33b02a64ee3b11da655c705fadd658385c86e4b94b07a10a3f578cab954be",
+      "bytes": 430206
+    },
+    "data/raw/kc_parcels/tile_552000_5288000_2000.json": {
+      "sha256": "4ba0db6feb51ab38cda7891796dfafaa1cb8e6ffdb794285b78fbfdedd22a850",
+      "bytes": 180545
+    },
+    "data/raw/kc_parcels/tile_552000_5290000_0.json": {
+      "sha256": "89032115bad2896b56b577f055f3e32aa08c9451fd12d3e9066e0d740af112f9",
+      "bytes": 687476
+    },
+    "data/raw/kc_parcels/tile_552000_5290000_1000.json": {
+      "sha256": "1a0a4c95582b9806883645734e8d0bb73da77c9d7df95b42e8b7db42172d53e7",
+      "bytes": 553974
+    },
+    "data/raw/kc_parcels/tile_552000_5290000_2000.json": {
+      "sha256": "5d995937807e54b558f8a91a69df2d7f44821c2cfd936d194d18f538f4272f5d",
+      "bytes": 127925
+    },
+    "data/raw/kc_parcels/tile_552000_5292000_0.json": {
+      "sha256": "2f5ad8c2bca0af6b259342eecec5800258dfda6474aea0b819d27815b3aeb9fa",
+      "bytes": 108
+    },
+    "data/raw/kc_parcels/tile_554000_5236000_0.json": {
+      "sha256": "79ebe97d267bfc29b9407513a25a88789ca36a48e0244cc77b19662074e3d49d",
+      "bytes": 466216
+    },
+    "data/raw/kc_parcels/tile_554000_5236000_1000.json": {
+      "sha256": "43a5a214933a473bbcd36646667b81ce7283fc98dd7ae4e5a8d8f2fd6e7dfcbf",
+      "bytes": 319276
+    },
+    "data/raw/kc_parcels/tile_554000_5238000_0.json": {
+      "sha256": "604598910f3c192cc5ae6edf8dbf882092a0f36b8d4aed89a67f172085572238",
+      "bytes": 999194
+    },
+    "data/raw/kc_parcels/tile_554000_5238000_1000.json": {
+      "sha256": "8c3e57a7fc707d7d4d6ea8253aba4cf26f6dd580e838053b6d71ffd8f8dfc19c",
+      "bytes": 363580
+    },
+    "data/raw/kc_parcels/tile_554000_5240000_0.json": {
+      "sha256": "d688f2d1b2bb759c987de4a5a201d04c6df2cf1afd7522629790e1f89fb66200",
+      "bytes": 720125
+    },
+    "data/raw/kc_parcels/tile_554000_5240000_1000.json": {
+      "sha256": "d02fbf69b1d5291b7994e91fdff08cafafa6e3ef108ef7315e16d3f91a6118a3",
+      "bytes": 247575
+    },
+    "data/raw/kc_parcels/tile_554000_5242000_0.json": {
+      "sha256": "07e16337abe5d8516918900c39d1a4baf176c755917c334a7858f6af25ad3de5",
+      "bytes": 780110
+    },
+    "data/raw/kc_parcels/tile_554000_5242000_1000.json": {
+      "sha256": "16089566e5630a6b0c4314d434287210b16c9d9fcae8c5459f1951277b17b93a",
+      "bytes": 649837
+    },
+    "data/raw/kc_parcels/tile_554000_5242000_2000.json": {
+      "sha256": "12996af6c16a9f50bbdde6f8e88b95b87e40d1fdbb9087b64081854c39280c9e",
+      "bytes": 534423
+    },
+    "data/raw/kc_parcels/tile_554000_5244000_0.json": {
+      "sha256": "7d4c86cb5adf989d5a497f241a19b3f97bf0c4284b70f543a194a06707719bd8",
+      "bytes": 885633
+    },
+    "data/raw/kc_parcels/tile_554000_5244000_1000.json": {
+      "sha256": "bac89ab86f4c32ca708c3260bc1a2eb9768f74adf6340ad7c9c3d6c695500a20",
+      "bytes": 217011
+    },
+    "data/raw/kc_parcels/tile_554000_5246000_0.json": {
+      "sha256": "429da9270b91d535a1cb862da7cec2cb47d81a141efd576b258d93759b7c9b04",
+      "bytes": 616945
+    },
+    "data/raw/kc_parcels/tile_554000_5248000_0.json": {
+      "sha256": "dfe99bb77d268f3dbe047b21e88336e4570c65e903bf3346534a05f879f0c745",
+      "bytes": 564447
+    },
+    "data/raw/kc_parcels/tile_554000_5250000_0.json": {
+      "sha256": "0a20e1eeb11814297f90838ce457088e472529943b0c394f0f34a4b57b860ae7",
+      "bytes": 445934
+    },
+    "data/raw/kc_parcels/tile_554000_5252000_0.json": {
+      "sha256": "e34d13c5a9067016c33b82887e9504e8d4f595b9274025de4ce047c967748214",
+      "bytes": 1155897
+    },
+    "data/raw/kc_parcels/tile_554000_5254000_0.json": {
+      "sha256": "953523db1139697ed102e28d27e580d064f99d77ea2f7798304b19a459577710",
+      "bytes": 497441
+    },
+    "data/raw/kc_parcels/tile_554000_5254000_1000.json": {
+      "sha256": "901da3a5e83977bb42692e71bfa597dba20a27906897b5ac629bfa245fad55ff",
+      "bytes": 496068
+    },
+    "data/raw/kc_parcels/tile_554000_5256000_0.json": {
+      "sha256": "17f19122c25132cfe9c5b8d3e23518dd97bbfe38d20ce45fcaf8b564266004a0",
+      "bytes": 505855
+    },
+    "data/raw/kc_parcels/tile_554000_5256000_1000.json": {
+      "sha256": "3664a616de7bfe64f55442602df7619237c7f4afc25622873c0d0031e53aeea8",
+      "bytes": 244319
+    },
+    "data/raw/kc_parcels/tile_554000_5258000_0.json": {
+      "sha256": "40b875d240c51efe7487b37ed4f1aaef6c402eb59674943161a2dc43c810a747",
+      "bytes": 543379
+    },
+    "data/raw/kc_parcels/tile_554000_5258000_1000.json": {
+      "sha256": "2e446e64343a168ca63c8bcbf9fd81f20d42c605b33838c2b91c4727d3327a07",
+      "bytes": 328523
+    },
+    "data/raw/kc_parcels/tile_554000_5260000_0.json": {
+      "sha256": "227782522cdbccde1c00a884c9af05c1bc5a068ec5c40b1720cecb5ce4e8a14a",
+      "bytes": 496951
+    },
+    "data/raw/kc_parcels/tile_554000_5260000_1000.json": {
+      "sha256": "f95bf31bba21fc1480f85519561ac4a3329c53b23ed76b812c6a828f5c7fac2e",
+      "bytes": 415864
+    },
+    "data/raw/kc_parcels/tile_554000_5260000_2000.json": {
+      "sha256": "1e3bf68317606cf82e112f71cd69b41dec44c04274eed7e21c5b54ca8e0a2732",
+      "bytes": 514574
+    },
+    "data/raw/kc_parcels/tile_554000_5262000_0.json": {
+      "sha256": "e7d03241c9641a8056bd100ef5d3b54a2773eb3e1abb85f3aa2625444679730b",
+      "bytes": 548559
+    },
+    "data/raw/kc_parcels/tile_554000_5262000_1000.json": {
+      "sha256": "29c5e6d0fe57dc4619033847fab61ed67bfa9449159f9b4d707feded01a9598c",
+      "bytes": 508837
+    },
+    "data/raw/kc_parcels/tile_554000_5262000_2000.json": {
+      "sha256": "2832e6704561a0c8e4021eb9e4431ee725efbd7f1191a30bd38cc9786dff95db",
+      "bytes": 395527
+    },
+    "data/raw/kc_parcels/tile_554000_5264000_0.json": {
+      "sha256": "34c6df76f551fa17050e78c056a0e6b9eb30b63d6f7c4cc7270be53d90176b20",
+      "bytes": 540065
+    },
+    "data/raw/kc_parcels/tile_554000_5264000_1000.json": {
+      "sha256": "9435cd9a21cbb832e74e4ba2cff97fd6b2a6e1e755115657734a8719c3c95f4a",
+      "bytes": 508754
+    },
+    "data/raw/kc_parcels/tile_554000_5264000_2000.json": {
+      "sha256": "8beb1fba49019c8c12cd6e95861277bf6ce264e437ccf5486ea1dfd78d201e28",
+      "bytes": 381147
+    },
+    "data/raw/kc_parcels/tile_554000_5264000_3000.json": {
+      "sha256": "5ff631b6b669992bc95771270eb0ba5fafb12e02d4dda3610736a73adc946a53",
+      "bytes": 296560
+    },
+    "data/raw/kc_parcels/tile_554000_5266000_0.json": {
+      "sha256": "f21ba1836ff297676f535ac31aef2c156d81c2d68a67c67c9a76d2fa7e7d2c74",
+      "bytes": 852391
+    },
+    "data/raw/kc_parcels/tile_554000_5266000_1000.json": {
+      "sha256": "da4fbb27efacd3456ef41faada8932bf74bcd22d8af414a32f7ed9bf923abfc4",
+      "bytes": 350024
+    },
+    "data/raw/kc_parcels/tile_554000_5266000_2000.json": {
+      "sha256": "d1e7f02fc5d548d024ca9ff9d0f285369d2ff522ce98dc0434d226188d1d7a7c",
+      "bytes": 354759
+    },
+    "data/raw/kc_parcels/tile_554000_5266000_3000.json": {
+      "sha256": "419b5c24688991e0bf7ab1d1dd23244e6950dc1ebd8bcd5618384ff4524efed9",
+      "bytes": 279125
+    },
+    "data/raw/kc_parcels/tile_554000_5268000_0.json": {
+      "sha256": "2cf7241bb81f57868460ccc9256eefa56c6cd5a3d961d4f4b45d920e62479df0",
+      "bytes": 327346
+    },
+    "data/raw/kc_parcels/tile_554000_5270000_0.json": {
+      "sha256": "59f82c8636ad35dd0c697efe7d7a6a35043c15aaad23347d31fc6d88bcb315f5",
+      "bytes": 32383
+    },
+    "data/raw/kc_parcels/tile_554000_5272000_0.json": {
+      "sha256": "9f000259c070c7281ed298f8f74b43522784814fa0afd5a057b13b6bd1501232",
+      "bytes": 107794
+    },
+    "data/raw/kc_parcels/tile_554000_5274000_0.json": {
+      "sha256": "44eaf20cd7399b949efde32c5ec6776d35e025200b3547453ace8d0e757254dc",
+      "bytes": 238124
+    },
+    "data/raw/kc_parcels/tile_554000_5276000_0.json": {
+      "sha256": "e483906b2674d31549505b46ce4500d99c6657db2118d21078d79ca2be0069ef",
+      "bytes": 279715
+    },
+    "data/raw/kc_parcels/tile_554000_5278000_0.json": {
+      "sha256": "e6077104a38aa75642298775d79f51141710113b17e40eba1fdc5db9f616f993",
+      "bytes": 470574
+    },
+    "data/raw/kc_parcels/tile_554000_5278000_1000.json": {
+      "sha256": "53efee0480d2567173edc97900a1219942b753df68b07b1af7e34029d1f6ba70",
+      "bytes": 1092634
+    },
+    "data/raw/kc_parcels/tile_554000_5278000_2000.json": {
+      "sha256": "5e5a6ce627c8e9cb0423ca58f61e78209911d6fb24d15acf996bba5bc881e277",
+      "bytes": 60576
+    },
+    "data/raw/kc_parcels/tile_554000_5280000_0.json": {
+      "sha256": "2ae4dc41ab5af3b27942a87f88928a8b6410a372c7c2cb9bc871c935ee81ffb6",
+      "bytes": 482643
+    },
+    "data/raw/kc_parcels/tile_554000_5280000_1000.json": {
+      "sha256": "e1ceb30067c555295a0138540b78bc93f9406ca82a51c64f0af6445f0c54c985",
+      "bytes": 872857
+    },
+    "data/raw/kc_parcels/tile_554000_5280000_2000.json": {
+      "sha256": "2162c6dba6dfca717e0c6cb18a4f9801455a177ac08b4452bb640bc5154ae145",
+      "bytes": 613699
+    },
+    "data/raw/kc_parcels/tile_554000_5282000_0.json": {
+      "sha256": "419126458128a1e07649fbd0d210cd2f547f98863bf8e5d28000d7c18d8a114a",
+      "bytes": 650021
+    },
+    "data/raw/kc_parcels/tile_554000_5282000_1000.json": {
+      "sha256": "499575268705be7d81da9474b1e40c23158e31583a4b6c1c08527a81874a84a3",
+      "bytes": 350622
+    },
+    "data/raw/kc_parcels/tile_554000_5284000_0.json": {
+      "sha256": "856a3b1ec5a024b4f80f5dae1f146cfaf2090776036438dfdbf12603f0f9f974",
+      "bytes": 604193
+    },
+    "data/raw/kc_parcels/tile_554000_5286000_0.json": {
+      "sha256": "1321b02b87934b180e165143a9a21ee9b8c2665d7f637ebad03dbcff009eb425",
+      "bytes": 511711
+    },
+    "data/raw/kc_parcels/tile_554000_5288000_0.json": {
+      "sha256": "c4a3ffec606ce3c1a6c9484acd0179a8b17d4577fc004a71fd4996544134ca64",
+      "bytes": 906698
+    },
+    "data/raw/kc_parcels/tile_554000_5290000_0.json": {
+      "sha256": "2660bdf50070a30928b8895a14feff8f27232a295f3191e91c52dbe4fcf665ad",
+      "bytes": 666114
+    },
+    "data/raw/kc_parcels/tile_554000_5290000_1000.json": {
+      "sha256": "461ec02ca1d4472759d51614cc68460c97cf5f738639cc12ff2bea17a8f9c593",
+      "bytes": 549591
+    },
+    "data/raw/kc_parcels/tile_554000_5290000_2000.json": {
+      "sha256": "1d999fe42618f496941e9d2c4bce8417c0aa9d70f7a056abe5da2d8aa441c590",
+      "bytes": 293661
+    },
+    "data/raw/kc_parcels/tile_556000_5238000_0.json": {
+      "sha256": "9467c198a414f0eb97f880141c16ac378e63283c2150cdef410f6c9415fb1285",
+      "bytes": 337586
+    },
+    "data/raw/kc_parcels/tile_556000_5240000_0.json": {
+      "sha256": "56dec53033fb82a89b509f512ab453b980ed3aef0d0a715e9e39a403cfeecf44",
+      "bytes": 774566
+    },
+    "data/raw/kc_parcels/tile_556000_5242000_0.json": {
+      "sha256": "2913cab76530e7beb4951089ba9b177189be878199d61b3d3af9946273e17d57",
+      "bytes": 401120
+    },
+    "data/raw/kc_parcels/tile_556000_5244000_0.json": {
+      "sha256": "57236005580122686964d0c87bf38b827262e1359740b1f5a9e747b68462a9d8",
+      "bytes": 129445
+    },
+    "data/raw/kc_parcels/tile_556000_5246000_0.json": {
+      "sha256": "447d3948a3d133d7a252eb64ff51e385c702766bd2fddd7f753f238d430e24b2",
+      "bytes": 605801
+    },
+    "data/raw/kc_parcels/tile_556000_5248000_0.json": {
+      "sha256": "8189758135fc103c13b94ec2829a74c9e9e4e73d4e66fe7fff4deded811fe8e6",
+      "bytes": 565295
+    },
+    "data/raw/kc_parcels/tile_556000_5250000_0.json": {
+      "sha256": "e566fae5bdf84d35d38114864d2775c0b5ff40481a7f897188e39b6966d4a5a9",
+      "bytes": 272010
+    },
+    "data/raw/kc_parcels/tile_556000_5252000_0.json": {
+      "sha256": "ffa77e6ecd3a32bf1f8ac1cb2bce683c79e5e7ce651e94b4d22b454b6b1397dd",
+      "bytes": 381650
+    },
+    "data/raw/kc_parcels/tile_556000_5254000_0.json": {
+      "sha256": "9fde98746b956584bde0562b6389580b601c83dd629fb192bed6239252b39b22",
+      "bytes": 377684
+    },
+    "data/raw/kc_parcels/tile_556000_5256000_0.json": {
+      "sha256": "a763a3ad7965b94d6a11d2ed28c02edb296a4bc26318391e295efc5dd832a9ac",
+      "bytes": 503146
+    },
+    "data/raw/kc_parcels/tile_556000_5258000_0.json": {
+      "sha256": "266c7ad31c9dbf767d672dd4729288fe1484d9ac52ceab2f1e473061f0ec5e71",
+      "bytes": 634042
+    },
+    "data/raw/kc_parcels/tile_556000_5258000_1000.json": {
+      "sha256": "a0a4d62c0132d003c43c7e938c8fd83a727e0a6b68550096692fcf26cbac746d",
+      "bytes": 379077
+    },
+    "data/raw/kc_parcels/tile_556000_5260000_0.json": {
+      "sha256": "2b095325092531b8b540b9b646ddc249eb9994da186b2d08f2eab5b4a4c1c9aa",
+      "bytes": 509169
+    },
+    "data/raw/kc_parcels/tile_556000_5260000_1000.json": {
+      "sha256": "fe3382d1eec8f2006f5c474a823e5dc48acf34aba509fbf988ff0b0c4028bf18",
+      "bytes": 475153
+    },
+    "data/raw/kc_parcels/tile_556000_5260000_2000.json": {
+      "sha256": "4355f6176f315f96c511fdf9a0b942f45fc4ce133fab6de7b31978a1054c3a62",
+      "bytes": 453444
+    },
+    "data/raw/kc_parcels/tile_556000_5260000_3000.json": {
+      "sha256": "bd49a5a2ba04f7100a4912175129d2143cb6d8676da16b8ee7cac1987a7fed9f",
+      "bytes": 326479
+    },
+    "data/raw/kc_parcels/tile_556000_5262000_0.json": {
+      "sha256": "ded4cc88241cd1a8bb76a44b75d6ecdd2ca9c88d14dd6a929276f6da75db8c54",
+      "bytes": 387317
+    },
+    "data/raw/kc_parcels/tile_556000_5264000_0.json": {
+      "sha256": "ac3fb7c3b91b84f2cde2a6f003bc686c1058bcaba20fe7cfa9a8779a2176a9f1",
+      "bytes": 1407663
+    },
+    "data/raw/kc_parcels/tile_556000_5266000_0.json": {
+      "sha256": "e55630847ad6b70726d6b1e32b3ca45b401bda44defb9b0e0d4f6a9c5440e372",
+      "bytes": 1304555
+    },
+    "data/raw/kc_parcels/tile_556000_5268000_0.json": {
+      "sha256": "eec4fffbc5a58eb0ae73a7bfb81c148a14656b218c44e165873e56169c8be505",
+      "bytes": 977040
+    },
+    "data/raw/kc_parcels/tile_556000_5268000_1000.json": {
+      "sha256": "a3523c9aa700775923831702cd919d078c72a003be5a4dd62f3c75a93491206e",
+      "bytes": 22573
+    },
+    "data/raw/kc_parcels/tile_556000_5270000_0.json": {
+      "sha256": "5267496bf77713bb2bfd5b17e0d8a8dd4ae5db28bd901122cf31969a102e0609",
+      "bytes": 605298
+    },
+    "data/raw/kc_parcels/tile_556000_5270000_1000.json": {
+      "sha256": "0b55c2c90901f7dbd5b732ba46d650a02b2ac49654ffc52a128f07cde0b74529",
+      "bytes": 257149
+    },
+    "data/raw/kc_parcels/tile_556000_5272000_0.json": {
+      "sha256": "7bd503b42bdefb40d27141bd35b034f4ef1971881620c1ccc3da1ee456e820a0",
+      "bytes": 157761
+    },
+    "data/raw/kc_parcels/tile_556000_5274000_0.json": {
+      "sha256": "5c0e77dca59f35044b2c1ff2aaaef2811e61279d62bad7e6aa89b99ca28d5a90",
+      "bytes": 727862
+    },
+    "data/raw/kc_parcels/tile_556000_5276000_0.json": {
+      "sha256": "dbc672b161d1be911ca09e232bdd18c32c5af2c2c35264ae9badf54c70c0008a",
+      "bytes": 401128
+    },
+    "data/raw/kc_parcels/tile_558000_5266000_0.json": {
+      "sha256": "97e3f3e8be651843dbb72fa9b759fb5a343208db6d4a95cfe64391bf21322e01",
+      "bytes": 2393250
+    },
+    "data/raw/kc_parcels/tile_558000_5266000_1000.json": {
+      "sha256": "8a8d8841353e69f5689573ccfa35603ae532c6cf4692021cfda3e42f4bb0eb97",
+      "bytes": 1003078
+    },
+    "data/raw/kc_parcels/tile_558000_5268000_0.json": {
+      "sha256": "775ec849cfac89770ce807f20d18dcbe0f15f7bafe38afbf9d2e0f23e5597655",
+      "bytes": 1045705
+    },
+    "data/raw/kc_parcels/tile_558000_5268000_1000.json": {
+      "sha256": "33a59b24df1cfb4f3f903c09c777fcf0fe05937b2f81c60f19c7f027460995a5",
+      "bytes": 1608936
+    },
+    "data/raw/kc_parcels/tile_558000_5270000_0.json": {
+      "sha256": "11ba72c1c898bee7038c095af77435b311cb0221e844e37cacaa36e4c42ce4aa",
+      "bytes": 913705
+    },
+    "data/raw/kc_parcels/tile_558000_5272000_0.json": {
+      "sha256": "11bc5f1d933d6cdfe865e6aa01dbdd79c96bf7a902f04b672bb0ca4168e9123e",
+      "bytes": 808058
+    },
+    "data/raw/kc_parcels/tile_558000_5272000_1000.json": {
+      "sha256": "b815ab5ee32464615809901bad6e7570e4e1ac0ea981a937160804603dc65e7f",
+      "bytes": 71600
+    },
+    "data/raw/kc_parcels/tile_558000_5274000_0.json": {
+      "sha256": "6197036e76018a29f255c45f03d57fd0fd61b6c85df48d2dca471f7a9b827e2d",
+      "bytes": 1835672
+    },
+    "data/raw/kc_parcels/tile_558000_5274000_1000.json": {
+      "sha256": "e107c4332d634bc2b5affa5d4d595223cce68fb3b984bfd732e9cd3d774ebf26",
+      "bytes": 657934
+    },
+    "data/raw/kc_parcels/tile_558000_5274000_2000.json": {
+      "sha256": "a3ea90811611e4806c9c53f6756324ae50485673eee41750c20c7b2ced94893d",
+      "bytes": 66309
+    },
+    "data/raw/kc_parcels/tile_558000_5276000_0.json": {
+      "sha256": "07c57c66e7dfaf8bc64817196ff6433a67b3f92b5c672fed779eed99d4c07f49",
+      "bytes": 926440
+    },
+    "data/raw/kc_parcels/tile_558000_5276000_1000.json": {
+      "sha256": "69bdb86c8c8f6ef2409d0ca18697fbc35342976464126efebdb503a8afb16176",
+      "bytes": 400432
+    },
+    "data/raw/kc_parcels/tile_560000_5266000_0.json": {
+      "sha256": "b88ce2b01c1159df80437139c9b4c146fddc8424953e775fa9dde6453b90be8d",
+      "bytes": 636254
+    },
+    "data/raw/kc_parcels/tile_560000_5266000_1000.json": {
+      "sha256": "1a0879d80b8275ab21521c88afdce07939decca2f629f3059c3f99f0835ffbc1",
+      "bytes": 482350
+    },
+    "data/raw/kc_parcels/tile_560000_5268000_0.json": {
+      "sha256": "9722ff34956d74d377c17d9e97503cc9cc1bd8d2515f92d5fa9206c8500d18d3",
+      "bytes": 689502
+    },
+    "data/raw/kc_parcels/tile_560000_5270000_0.json": {
+      "sha256": "bc5e02f3a25cc43523264330b6412357d48390bb7dd1c47e69113f334e8d9077",
+      "bytes": 642486
+    },
+    "data/raw/kc_parcels/tile_560000_5270000_1000.json": {
+      "sha256": "af0b68cf2085390d330392e2b9f274273257fdd209cd64c59136ecb3c03b6593",
+      "bytes": 409174
+    },
+    "data/raw/kc_parcels/tile_560000_5272000_0.json": {
+      "sha256": "b3d5321b68e939eae7df207003d5bf3faf213be671f6f846c5d5f402503e5c30",
+      "bytes": 649707
+    },
+    "data/raw/kc_parcels/tile_560000_5272000_1000.json": {
+      "sha256": "0470b24fdb959f6798e1c8ed9d2fbd40328262fa0670e249655742138902f5a1",
+      "bytes": 70389
+    },
+    "data/raw/kc_parcels/tile_560000_5274000_0.json": {
+      "sha256": "fd56abf32fa198d25220a5e5bbe9b1d92ea4cc73f746d236fd91996b829765b2",
+      "bytes": 769432
+    },
+    "data/raw/kc_parcels/tile_560000_5274000_1000.json": {
+      "sha256": "65a2b88459a610cbeb8f4b52cfa86e836080042b4cfda4a5c4e555c137575c80",
+      "bytes": 81037
+    },
+    "data/raw/kc_parcels/tile_560000_5276000_0.json": {
+      "sha256": "40c77be8d8275b7f6c29e463f148af64e55e59367400d690270fcb80373a4c90",
+      "bytes": 839636
+    },
+    "data/raw/kc_parcels/tile_560000_5278000_0.json": {
+      "sha256": "c6536154e4e9773ccd0b43735697692a7fb5e587723d954ad5e6c182d28696ea",
+      "bytes": 840119
+    },
+    "data/raw/kc_parcels/tile_560000_5278000_1000.json": {
+      "sha256": "3d9ce5721702a60b1f488deb9755751475ccab6144d3bc8342cc96d7f732c74e",
+      "bytes": 553141
+    },
+    "data/raw/kc_parcels/tile_562000_5266000_0.json": {
+      "sha256": "0a88edb62510e90c3e93026de8981c63dc52aaf4f15f9dad526dd9933c6f1aec",
+      "bytes": 893100
+    },
+    "data/raw/kc_parcels/tile_562000_5266000_1000.json": {
+      "sha256": "c419133cbb401ddad5f33f4489d905812edbabae8a44111de9454c3fd0680183",
+      "bytes": 718344
+    },
+    "data/raw/kc_parcels/tile_562000_5266000_2000.json": {
+      "sha256": "f2551076a2f8111ba36923474f6a37fc6c618f3890b88f669b5bb4d5ac172583",
+      "bytes": 234563
+    },
+    "data/raw/kc_parcels/tile_562000_5268000_0.json": {
+      "sha256": "3c3399d9ef7f141293cdf72c3263a3e215ad6f63d3c03208e15d32678dd38687",
+      "bytes": 843853
+    },
+    "data/raw/kc_parcels/tile_562000_5268000_1000.json": {
+      "sha256": "38e63e81bed75d264dd9c7199502600f41f9d7ffbc02b55caa8f3d1dc2124e7b",
+      "bytes": 472966
+    },
+    "data/raw/kc_parcels/tile_562000_5270000_0.json": {
+      "sha256": "fb3e9eefb1d90c6f14b0e7845762f051010f9b89c1d5abd33cc318e199e5fbe9",
+      "bytes": 849853
+    },
+    "data/raw/kc_parcels/tile_562000_5270000_1000.json": {
+      "sha256": "9f878554d4a3113c3e0421b52cd37056e7016d198e8b5af8139bf071d6976490",
+      "bytes": 419580
+    },
+    "data/raw/kc_parcels/tile_562000_5272000_0.json": {
+      "sha256": "22aecf725bb5ea65ef8e88e7882dc17ae7d0e7efbfc2d7183815b6e4488cdd8d",
+      "bytes": 563249
+    },
+    "data/raw/kc_parcels/tile_562000_5272000_1000.json": {
+      "sha256": "3c1afe4e6d13c7428b1a07802ab5603fffa2e3ef80777fb82b42b65c45eeee88",
+      "bytes": 174882
+    },
+    "data/raw/kc_parcels/tile_562000_5274000_0.json": {
+      "sha256": "da9c160bcd031cc299a521068a6af7d2698db2a25b1e004bf1823c16a45c8487",
+      "bytes": 636031
+    },
+    "data/raw/kc_parcels/tile_562000_5274000_1000.json": {
+      "sha256": "aef03a2b415ce3bc9b8b43f73ebe92ddc5559b7a6ce47139432b4c8be135ee1b",
+      "bytes": 44851
+    },
+    "data/raw/kc_parcels/tile_562000_5276000_0.json": {
+      "sha256": "e56bbdfdbbe558530045d8cb92c293fa1424defd061f2e0f63fae1d3f1d4d8fb",
+      "bytes": 676815
+    },
+    "data/raw/kc_parcels/tile_562000_5276000_1000.json": {
+      "sha256": "bae8ddac6371d17e836fe818c73d080c0eecb2613f1d8844e927158c9e56b1c3",
+      "bytes": 261942
+    },
+    "data/raw/kc_parcels/tile_562000_5278000_0.json": {
+      "sha256": "8625ef95c52f990a981f0192d666cc32525732088cbf46c8c2a6be36bdd93691",
+      "bytes": 801742
+    },
+    "data/raw/kc_parcels/tile_562000_5278000_1000.json": {
+      "sha256": "cb6dac471d150084c3edd0040ff88d36914d059745c989e88b65282872bcd4a4",
+      "bytes": 296807
+    },
+    "data/raw/kc_parcels/tile_562000_5280000_0.json": {
+      "sha256": "13ffbec64f1604a14196d4053e69ddfac6ce2a4715702eeb1fad4efbaa2c126b",
+      "bytes": 712035
+    },
+    "data/raw/kc_parcels/tile_562000_5280000_1000.json": {
+      "sha256": "36fbe6075a6b61201a45574989b27e71f62e2601971b25916d695f8fb3df9eef",
+      "bytes": 672338
+    },
+    "data/raw/kc_parcels/tile_562000_5280000_2000.json": {
+      "sha256": "d74145ff1317c2f962885439612b2d902656d347b89b5b489dbe0c81493bd8cf",
+      "bytes": 435389
+    },
+    "data/raw/kc_parcels/tile_562000_5282000_0.json": {
+      "sha256": "65bf442ee090b0c7d8dc9069569b13a2c83d0c24a53667af31dd8b43dd5aba1f",
+      "bytes": 696209
+    },
+    "data/raw/kc_parcels/tile_562000_5282000_1000.json": {
+      "sha256": "29e79602e07f48c4264e45e72f73db75c332bb8de9aaa9e38017c83bb3893e16",
+      "bytes": 458561
+    },
+    "data/raw/kc_parcels/tile_564000_5268000_0.json": {
+      "sha256": "9520f65c0db4b51beb79a73c465d367c5da2d6bbf9c282adcaa63cf399bc01cb",
+      "bytes": 893993
+    },
+    "data/raw/kc_parcels/tile_564000_5268000_1000.json": {
+      "sha256": "925354afbf61474044399569fce96a3dd9fcea8b8595df3766050003626c1391",
+      "bytes": 566313
+    },
+    "data/raw/kc_parcels/tile_564000_5268000_2000.json": {
+      "sha256": "7461748268bf0d83329d9db81d5d3f2df24fe1e8993d9a21b45100d27682570f",
+      "bytes": 281386
+    },
+    "data/raw/kc_parcels/tile_564000_5270000_0.json": {
+      "sha256": "2f87930b7219c92377357f66f520eca5709f3425dc4450e199223dbe0a86dda8",
+      "bytes": 523062
+    },
+    "data/raw/kc_parcels/tile_564000_5270000_1000.json": {
+      "sha256": "17c95ee604bac95dea4388a249426f978b5cf9641f6329120e1a0936299fd573",
+      "bytes": 343052
+    },
+    "data/raw/kc_parcels/tile_564000_5272000_0.json": {
+      "sha256": "bc17e06ee3d6d19a3a142922831bba92e885b306d78e8aebb4a66c4fd8a24ca9",
+      "bytes": 493966
+    },
+    "data/raw/kc_parcels/tile_564000_5272000_1000.json": {
+      "sha256": "b4d0f7df2206172922bc08d54a151ea8594f97310a4956d99db5897af39378ec",
+      "bytes": 490804
+    },
+    "data/raw/kc_parcels/tile_564000_5272000_2000.json": {
+      "sha256": "3ef26bbe32e6386f19056f09dd681dfe3586782eb56313caa190125b641ca100",
+      "bytes": 313418
+    },
+    "data/raw/kc_parcels/tile_564000_5274000_0.json": {
+      "sha256": "de26c8df3b487038c0868646372300522c1a748e687d24822e65ff018df1adb3",
+      "bytes": 799226
+    },
+    "data/raw/kc_parcels/tile_564000_5274000_1000.json": {
+      "sha256": "2c8c42309471cb99bee5223884e72f6d770da0b1c00d3a692209685640a01b7c",
+      "bytes": 205986
+    },
+    "data/raw/kc_parcels/tile_564000_5276000_0.json": {
+      "sha256": "3e844db09b333dd050c6292b924d5a2f43553c3953b8914cafe6e0accb09ee1f",
+      "bytes": 589413
+    },
+    "data/raw/kc_parcels/tile_564000_5278000_0.json": {
+      "sha256": "aab84aca5262cf66cf61ac5ff4bc1c98bdcfd043b7a2951fe30235e2e9ad743f",
+      "bytes": 902336
+    },
+    "data/raw/kc_parcels/tile_564000_5278000_1000.json": {
+      "sha256": "90766089c0d30f06346e943596d7050dbc3ec61878560ca41d9e630075854e91",
+      "bytes": 786871
+    },
+    "data/raw/kc_parcels/tile_564000_5280000_0.json": {
+      "sha256": "6f5244e22bba8f4d14ab9c2690d961746952cfded2d370c48581ed35c1b54387",
+      "bytes": 937886
+    },
+    "data/raw/kc_parcels/tile_564000_5282000_0.json": {
+      "sha256": "234403beda487e86569280e68ebb823fec99730d22a004abbc0f7aecd0f15840",
+      "bytes": 703146
+    },
+    "data/raw/kc_parcels/tile_564000_5282000_1000.json": {
+      "sha256": "d4f05c91cb2e6c20cb33be5ef412f22d5f43fee18939b42a896452d1a39dd949",
+      "bytes": 753782
+    },
+    "data/raw/kc_parcels/tile_566000_5272000_0.json": {
+      "sha256": "32ae392934e44851f23252219e91054d8182e0ec747deae30f6a2bdbbea4b806",
+      "bytes": 588951
+    },
+    "data/raw/kc_parcels/tile_566000_5272000_1000.json": {
+      "sha256": "b14b3cd81e6f4e1c53192c78132b4903ac20f84b6adadf96050aeadfb00e720e",
+      "bytes": 280516
+    },
+    "data/raw/kc_parcels/tile_566000_5274000_0.json": {
+      "sha256": "a4b1259d572d1c9ff8e5ab62652c2c64ad3eff27338db1f8424bacab04c40381",
+      "bytes": 661361
+    },
+    "data/raw/kc_parcels/tile_566000_5274000_1000.json": {
+      "sha256": "3d9b3053f5c0951fd6228a8c917ab379e3f51041bef4b2109bebd13839190933",
+      "bytes": 613291
+    },
+    "data/raw/kc_parcels/tile_566000_5274000_2000.json": {
+      "sha256": "48bd4e74ea808f3984ddad1fadda792622e1800d67b2cf3584928cf92b6da55e",
+      "bytes": 724234
+    },
+    "data/raw/kc_parcels/tile_566000_5274000_3000.json": {
+      "sha256": "42c6881b83b97e884c084315d7fa53f1a1141f195760d92b7fd03d0e420c9155",
+      "bytes": 38053
+    },
+    "data/raw/kc_parcels/tile_566000_5276000_0.json": {
+      "sha256": "ba36c1e41381749a3c0ec34ed5d8731bf67b4936340b9707079aa5d20317e433",
+      "bytes": 793279
+    },
+    "data/raw/kc_parcels/tile_566000_5276000_1000.json": {
+      "sha256": "46a6a914cddfd203d696ef4adaf295a9f56600c9e677a396b3b0106cc8d8f615",
+      "bytes": 795715
+    },
+    "data/raw/kc_parcels/tile_566000_5276000_2000.json": {
+      "sha256": "f3fedc62d7ca500c779ade173c75003f83a4920d952f626812315f4a9368308c",
+      "bytes": 30822
+    },
+    "data/raw/kc_parcels/tile_566000_5278000_0.json": {
+      "sha256": "d6ebbc583fbbf5d658852f177965ad023c83da95158dcd7f3602797022206a70",
+      "bytes": 346932
+    },
+    "data/raw/kc_parcels/tile_566000_5280000_0.json": {
+      "sha256": "3c209e315b6560e47b3a95d2284344958f77ecb7aef15a6431bf47fe996d873b",
+      "bytes": 813105
+    },
+    "data/raw/kc_parcels/tile_566000_5280000_1000.json": {
+      "sha256": "a5687ca98dc0a307bc2b9c8f97678fd4e57a28c37255ca3189c7838b432e79dc",
+      "bytes": 391223
+    },
+    "data/raw/kc_parcels/tile_566000_5282000_0.json": {
+      "sha256": "278fb1729efb23f0e5cbf80f5224d0dead4fed7f90c44c10e2ea3cccbcc1878a",
+      "bytes": 1024591
+    },
+    "data/raw/kc_parcels/tile_566000_5282000_1000.json": {
+      "sha256": "21947bb8c1b188da57b4c63b0d1555f30361dd3abac161dd071637ae438967c2",
+      "bytes": 819443
+    },
+    "data/raw/kc_parcels/tile_566000_5282000_2000.json": {
+      "sha256": "52a1f703d712d79ed25db6fb7c43705c0a09a4833eb849bf98231ca395d3ef39",
+      "bytes": 266974
+    },
+    "data/raw/kc_parcels/tile_568000_5274000_0.json": {
+      "sha256": "5a14328da210b7c1f87b83282f53d4f4db961460aacbacf01f3bb22e4a8d42a6",
+      "bytes": 652665
+    },
+    "data/raw/kc_parcels/tile_568000_5276000_0.json": {
+      "sha256": "ee8ffbd10cc00376b710df7acfc049ed671f304cc25c5f8b4c9b2e1e85d2082c",
+      "bytes": 859429
+    },
+    "data/raw/kc_parcels/tile_568000_5278000_0.json": {
+      "sha256": "cefd4371ef0bcfdaeb9386bad023e4b1b0fb9e312838a54cc1180149415903c2",
+      "bytes": 1041296
+    },
+    "data/raw/kc_parcels/tile_568000_5280000_0.json": {
+      "sha256": "f6e90d37f59600f011ab0cc4ee58b7bc84e6a72f8ff4f15aa70a1a47c449456b",
+      "bytes": 378984
+    },
+    "data/raw/kc_parcels/tile_568000_5282000_0.json": {
+      "sha256": "bfc5616acbc30e18c3d0fdb657b8a124db67d49753103e94929706875968df3c",
+      "bytes": 448565
+    },
+    "data/raw/kc_parcels/tile_570000_5278000_0.json": {
+      "sha256": "2a384e21cfbda37b6f9c4c43837e77f6abc151c5119591063508dc49e10608c1",
+      "bytes": 588147
+    },
+    "data/raw/kc_parcels/tile_570000_5280000_0.json": {
+      "sha256": "3861cfdb1ba7ccea9a1eb4d18550caa30254d9e7b756738587d20970d8cc969c",
+      "bytes": 950443
+    },
+    "data/raw/lodes/wa_wac_S000_JT00_2002.csv.gz": {
+      "sha256": "14f64fd80d42b05b98d3ff1ae2650637bb338c9dcc086cfca756de64194d60dd",
+      "bytes": 771245
+    },
+    "data/raw/lodes/wa_wac_S000_JT00_2004.csv.gz": {
+      "sha256": "ee28dd77f15c532abd2b857495794f9d4ca613142171b81ebc62a8e08c8fa1c7",
+      "bytes": 793347
+    },
+    "data/raw/lodes/wa_wac_S000_JT00_2006.csv.gz": {
+      "sha256": "b264934a6ba8261f502bde3423a1a86ca73cd7e2b34ffd3573e209b68ad68777",
+      "bytes": 818482
+    },
+    "data/raw/lodes/wa_wac_S000_JT00_2008.csv.gz": {
+      "sha256": "24c9ada0dd0d2a234044c38f62d23295e1ca0be99c4ee0bf6c257592219e2ea4",
+      "bytes": 847745
+    },
+    "data/raw/lodes/wa_wac_S000_JT00_2010.csv.gz": {
+      "sha256": "478e64306ca443e235613779fef374ab6f8ed51501bac790e30a6f98f7e314f1",
+      "bytes": 1324223
+    },
+    "data/raw/lodes/wa_wac_S000_JT00_2012.csv.gz": {
+      "sha256": "632ed8ed56c502ae76960f6a7c4409f3ef9834953947cf488a3f534b59f21bd0",
+      "bytes": 1250408
+    },
+    "data/raw/lodes/wa_wac_S000_JT00_2014.csv.gz": {
+      "sha256": "b77b4eef92828f40a3d971e984db6ca8e974c5658f77c847ce4863c442066166",
+      "bytes": 1280685
+    },
+    "data/raw/lodes/wa_wac_S000_JT00_2016.csv.gz": {
+      "sha256": "a3014568abff7beff648810c2f40f5d929fd9237a3aaea207b474b2c4f013e21",
+      "bytes": 1236134
+    },
+    "data/raw/lodes/wa_wac_S000_JT00_2018.csv.gz": {
+      "sha256": "b6a6b1d31fca145b23e1b05ba6ec3ad700c97ab54fc54bfd87a22218eb21c843",
+      "bytes": 1283957
+    },
+    "data/raw/lodes/wa_wac_S000_JT00_2019.csv.gz": {
+      "sha256": "f5cca819acf62d0dbf8639ba7c39002fc7c0c17cfad0d8e795872027f47ce4cf",
+      "bytes": 1287700
+    },
+    "data/raw/lodes/wa_wac_S000_JT00_2020.csv.gz": {
+      "sha256": "d901556bb2830f5837f86609e731fa554e644a8ccdd741f89d64c885d044f0dd",
+      "bytes": 1178052
+    },
+    "data/raw/lodes/wa_wac_S000_JT00_2021.csv.gz": {
+      "sha256": "842285bc6a9e5a3b3b67bb07e2756d238c51f75c5db2400d941d4cc24ec20a30",
+      "bytes": 1241046
+    },
+    "data/raw/lodes/wa_wac_S000_JT00_2022.csv.gz": {
+      "sha256": "88313920c55133caf28316ae38a31d6197c4485b4c085bfd12f7b97be79b58c3",
+      "bytes": 1288533
+    },
+    "data/raw/ms_buildings/021230021.csv.gz": {
+      "sha256": "ad605d5c1fc4e17ced34c697539ae4c215fc3327b9f72c4e54ab00de3ba541c2",
+      "bytes": 23346963
+    },
+    "data/raw/ms_buildings/021230023.csv.gz": {
+      "sha256": "c0ee61dc0d4fcbb61479b2a95b46692d580447d8543facd0f3fd7d8706da5c87",
+      "bytes": 36240045
+    },
+    "data/raw/ms_buildings/021230030.csv.gz": {
+      "sha256": "fbc0279db595b142ff8fa33f5e87e96d89b4c2a43c57d7c26c79fd2a32c67b40",
+      "bytes": 58820958
+    },
+    "data/raw/ms_buildings/021230032.csv.gz": {
+      "sha256": "03ffa8a9cb5072f822184a1399d95a0f3f8c9fefab00127f97fce37e0f084124",
+      "bytes": 40231901
+    },
+    "data/raw/ms_buildings/dataset-links.csv": {
+      "sha256": "9371e9fd27f1e82856b2ed7a3c0397c685ee0396b1078a0af77dbe91269f9be6",
+      "bytes": 7171802
+    },
+    "data/raw/osm/washington-latest.osm.pbf": {
+      "sha256": "d876fdd6a424d90059ff4844b34764672e43374b3fd2a762d71d986f21b6267c",
+      "bytes": 365961595
+    },
+    "data/raw/osm/washington-latest.osm.pbf.md5": {
+      "sha256": "52bc60c1456b35b245168b35f6c90a5a849c4f98625729cc03096d6f0359c78c",
+      "bytes": 60
+    },
+    "data/reference/lvc_instruments.csv": {
+      "sha256": "a17ee9adf9991ab04d59c70768421ce71a30923e78addb549236b841d8ed1fd0",
+      "bytes": 2151
+    },
+    "data/reference/project_finance.csv": {
+      "sha256": "ea2afac51a21c52f99322e81f0e71501a8b28d45321caa4f9e0bdee35a0c8083",
+      "bytes": 861
+    },
+    "data/reference/sources.md": {
+      "sha256": "683e90cbea2586fc7134460bb5c24c1821adb8b53f6fcb0290f18846a577bd13",
+      "bytes": 2262
+    },
+    "data/reference/station_milestones.csv": {
+      "sha256": "4acabe836ffecb6efefd199d1553bb6bc86cd1faf83f0e7e56a2227592066696",
+      "bytes": 7315
+    },
+    "data/processed/build_log.json": {
+      "sha256": "fb4c0831a224052b904521fcf4c4dc71bade571867c10611d1fa107a42d41672",
+      "bytes": 224
+    },
+    "data/processed/dim_lvc_instrument.parquet": {
+      "sha256": "dd4536f6472f5c8c1b2416afa68bd0779188bcb78aaf56bb8fbcc024d8ac7d54",
+      "bytes": 10840
+    },
+    "data/processed/dim_parcel.parquet": {
+      "sha256": "2d895e11468d1d72501b2ce403f90fd969461193312ed5e7683a06679935d197",
+      "bytes": 9741026
+    },
+    "data/processed/dim_station.parquet": {
+      "sha256": "4d75e6ca50fd0de27ae6d9473cbbe9dec45179ef978b7d819c57c27b721478bf",
+      "bytes": 20760
+    },
+    "data/processed/dim_zoning.parquet": {
+      "sha256": "67ae351fa313db72d1ea81209d011ed2d7220d446b9e046121e0d65cfa092005",
+      "bytes": 1660341
+    },
+    "data/processed/fact_assessed_value.parquet": {
+      "sha256": "81bc9f75b0ddf76cf56ffb4f035a94d4fb5c5ac433a05cefab4a930dad8083eb",
+      "bytes": 112892384
+    },
+    "data/processed/fact_project_finance.parquet": {
+      "sha256": "7580b8d88fc745eecdc3205b58a92a57f9d4dd1dad050d69a11aaf1ee0aa7d4a",
+      "bytes": 4882
+    },
+    "data/processed/fact_sales.parquet": {
+      "sha256": "d03f9cf46b48e1a4e55260b0dad2eee6e0e2741ea65a8f3565c0c249171866fc",
+      "bytes": 21836750
+    },
+    "data/processed/gtfs_history.parquet": {
+      "sha256": "c38dd4bd7329bdea622eda31bcdad35c9cc6ebe58cf8e88dfc2d6d312568a826",
+      "bytes": 4730
+    },
+    "data/processed/parcel_access.parquet": {
+      "sha256": "ccfb40ff7770c011272bb47be46253f0369d217a8fcfb4febf234eda3241018f",
+      "bytes": 37372819
+    },
+    "data/processed/treatment_assignment.parquet": {
+      "sha256": "e6f1e4374ec0e547c3f1b1a2ed4a5cf9fd01c85bbbd9f3e2a1a60855d9b20500",
+      "bytes": 9283091
+    },
+    "outputs/results/att_gt_primary.csv": {
+      "sha256": "6aac6efc0669a24cb17f0ebe09d1cec8ce9c05d474203d088d75f13563a51bbe",
+      "bytes": 2079
+    },
+    "outputs/results/breakeven.json": {
+      "sha256": "f7580589854633ef0875da01e26443c49e1a45a8f24ee7dcab755b468d44af04",
+      "bytes": 374
+    },
+    "outputs/results/elasticity_draws.npy": {
+      "sha256": "b92bd1bd267fc65bb87096c42e932550e8bbe5dcd02aa303c8913a4e7ea6b7ad",
+      "bytes": 8120
+    },
+    "outputs/results/estimates.json": {
+      "sha256": "79b216f3e54ffa18502d7dbf2e6349c83f6b0da9586708b98c241f308c42f6dd",
+      "bytes": 3142
+    },
+    "outputs/results/event_study_primary.csv": {
+      "sha256": "b90b198cb4fd1d5a3b6bc828243ba2d126d0aa135a2b505c743b31ba3fa445d3",
+      "bytes": 1674
+    },
+    "outputs/results/event_study_spillover.csv": {
+      "sha256": "522315defc3ae03a41e6a53de06ce9566a61d3a94902326692701d0fd43b6ef0",
+      "bytes": 1710
+    },
+    "outputs/results/falsification.json": {
+      "sha256": "ed7aada6836139c4ce77cce3491cc363f955110077d3114f2762f18ef7709254",
+      "bytes": 4874
+    },
+    "outputs/results/gates.json": {
+      "sha256": "eaa6ab40f744dbed366b7b78a5c6578630b82b07c1951b697824937cc574bc84",
+      "bytes": 3460
+    },
+    "outputs/results/incidence_block_group.csv": {
+      "sha256": "ba4103cdd6a8890f94fb7abd71719177322709cd1b998cde66d13987bca6e27a",
+      "bytes": 1488
+    },
+    "outputs/results/power.json": {
+      "sha256": "4c79fa79c00a6ce150923eb15acb95d3b47eef8ef557e79fda30ef55b240adce",
+      "bytes": 379
+    },
+    "outputs/results/primary_post_draws.npy": {
+      "sha256": "3bd695c2c5d325031d6b21f86b9e6c3d41f33eb107f9c55a39dca4defd23fc37",
+      "bytes": 8120
+    },
+    "outputs/results/revenue.json": {
+      "sha256": "331f1ec83167a2d782ed3e0c94b08ebff46b06c51ccc01535dbebe6a85d91c54",
+      "bytes": 8669
+    },
+    "outputs/results/sales_by_ring_year.csv": {
+      "sha256": "aafdc1f5d96fe4198fd07cb282157aac7ff55620becf552b8e322bb672693c34",
+      "bytes": 1043
+    },
+    "outputs/results/station_estimates.csv": {
+      "sha256": "b785e926a3331c686c1ba3ce8bc1fc6984302680473ee32b0a0cfe54ebb4bb68",
+      "bytes": 397
+    },
+    "config/pap.lock": {
+      "sha256": "c4c1d22273344be129ddb032a8e3de5c0cdcaa93d7d67ed8c8e10d3fab2ec725",
+      "bytes": 435
+    },
+    "config/pap.yaml": {
+      "sha256": "74e2d3dca6bdcfbca78d6ab0ee67983d02c7d29689e636f2143e6d7223579956",
+      "bytes": 5596
+    },
+    "src/transitcap/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "src/transitcap/build/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "src/transitcap/build/access.py": {
+      "sha256": "6ffeb32c0b956978c476f1299d8e756207459ec4f34c5e9cc7a1fb02669a5fa7",
+      "bytes": 4620
+    },
+    "src/transitcap/build/rail.py": {
+      "sha256": "c13c5a6f2a1bd489027fdcfbca3694cd194fd5e83147845c91b56f0b39e33011",
+      "bytes": 6277
+    },
+    "src/transitcap/build/schemas.py": {
+      "sha256": "8c6410d248d51531854b8ba54029a1a79c15a90782732fdd778ad2671bf89752",
+      "bytes": 2160
+    },
+    "src/transitcap/build/tables.py": {
+      "sha256": "b620dc82443c3ec81be7182515ac11c868627d31bc82d6246d2a7058cea6aafe",
+      "bytes": 14087
+    },
+    "src/transitcap/build/walk.py": {
+      "sha256": "f22823df10a174f65cd6994977eb9409300c45127f4c91a0f53ac4dcc8a6a410",
+      "bytes": 3468
+    },
+    "src/transitcap/cli.py": {
+      "sha256": "3b0aa9c5dd49e8bf0242d0f01ee18d8b437f79a84eb3b3d24c6c0d5536d494bb",
+      "bytes": 2925
+    },
+    "src/transitcap/config.py": {
+      "sha256": "e82b145d0dce1649c6c6b2a427ac3cc6dfe4b47e024454958f2c5a4d6ee414b5",
+      "bytes": 2012
+    },
+    "src/transitcap/decide/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "src/transitcap/decide/gates.py": {
+      "sha256": "d357138801783051cd988ac79f56a69d1fbd929d669d2cc4e3896db3db313d60",
+      "bytes": 4441
+    },
+    "src/transitcap/estimate/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "src/transitcap/estimate/csdid.py": {
+      "sha256": "314a471882ebe84ea320153b05c3f2b9985f215c387d9e1cf99fc2fa7a67b839",
+      "bytes": 6905
+    },
+    "src/transitcap/estimate/falsify.py": {
+      "sha256": "268f218934d11cb91e878b9effb3bd61c9a92deba3a95c4694630832475c0f0e",
+      "bytes": 7857
+    },
+    "src/transitcap/estimate/power.py": {
+      "sha256": "d6923a45ad62cb05656f310543293f10480d957a2c55c914c38f2eef60979b5d",
+      "bytes": 2921
+    },
+    "src/transitcap/estimate/prepare.py": {
+      "sha256": "6a8217ed6867fd9db470a157b87535e4a85d717fce414bcf4d7bf2e3a58ce9ec",
+      "bytes": 3308
+    },
+    "src/transitcap/estimate/run.py": {
+      "sha256": "b8e6bdf91c9090b0a2f3e6b58dfcf17c7e89a79b9eecdb137000773a6392d21d",
+      "bytes": 9712
+    },
+    "src/transitcap/ingest/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "src/transitcap/ingest/buildings.py": {
+      "sha256": "9c15d0eea57d850a468c9c8fd47b5135c664dac010261e07cc81d3e7f9726f77",
+      "bytes": 7081
+    },
+    "src/transitcap/ingest/osm.py": {
+      "sha256": "d2ae96e4b92953672a0f00dc3321fe085f46a8bfdb79f3e5c7d3c3f7b2e28f18",
+      "bytes": 2086
+    },
+    "src/transitcap/ingest/parcels.py": {
+      "sha256": "1e8910465dcd0dfd7844341bd736597c97a5a6d880b57defbc9d0f64f17e4765",
+      "bytes": 4068
+    },
+    "src/transitcap/paths.py": {
+      "sha256": "fc7899c09846c09b59af2c6a22a04b2fdaebb0f02ec63903dff3f9370e5045cd",
+      "bytes": 612
+    },
+    "src/transitcap/report/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "src/transitcap/report/atlas.py": {
+      "sha256": "10adb0f31aa46f454271f8f40a4c07210b5b6ca0570815052a45bdfd01c43b27",
+      "bytes": 80337
+    },
+    "src/transitcap/report/buildings.py": {
+      "sha256": "7816bb09cc87dbae479dadda90602d5fdc78171abf5acf4375669faee1ee56b0",
+      "bytes": 5806
+    },
+    "src/transitcap/report/figures.py": {
+      "sha256": "6e99bb69397efb4fb4f00d2fdaf6ee1b5f6ceb4dfd6ffe1ad6f1527ab7b1d936",
+      "bytes": 5640
+    },
+    "src/transitcap/report/manifest.py": {
+      "sha256": "e7ffbb7958a09ef832000eaab2df0c33fdb71a951d0e143026affaf6c64407e0",
+      "bytes": 1399
+    },
+    "src/transitcap/report/memo.py": {
+      "sha256": "1f13c790584c05f7ce97a7ab5e6f75b2164d827fdde1d88f2107a8c53a76a4c7",
+      "bytes": 8072
+    },
+    "src/transitcap/report/twin.py": {
+      "sha256": "140e2b76ff63811d7d60de07de97764c25156ffe3613a366097e6742e87c448f",
+      "bytes": 8546
+    },
+    "src/transitcap/revenue/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "src/transitcap/revenue/bridge.py": {
+      "sha256": "33792d06ed56d34c11eda9e309f76d0431da736b6613822a6974a2b4b7af66e5",
+      "bytes": 3770
+    },
+    "src/transitcap/revenue/model.py": {
+      "sha256": "96d2f2624defe0af8fcf9a6f6d105749101678877f8c6fbd6a33829be0050074",
+      "bytes": 8033
+    },
+    "src/transitcap/revenue/run.py": {
+      "sha256": "4de188e23679ed5b300f6ececfe956a209ef0aeb216ca55404b9a58524f66b0b",
+      "bytes": 10854
+    }
+  },
+  "code_hash": "3cb718a5e1aeea7b660c04dd3f1bb982fe80115ee002af50ff1a74f160fdb2a8",
+  "raw_data_hash": "636055bcf6fd5a91583b25f283da015fc1c13c20e8ba99ad451b8c61603924cc"
+}

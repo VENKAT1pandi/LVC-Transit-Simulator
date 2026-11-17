@@ -1,0 +1,124 @@
+# TransitCap v3 pre-analysis plan (machine-readable). Frozen by `transitcap freeze`, which writes
+# config/pap.lock with this file's SHA-256. Estimation refuses to run if the hash differs.
+# Narrative and rationale: docs/pre_analysis_plan.md. Changes after freezing go in docs/decisions/.
+
+corridor: "Sound Transit Link light rail, King County stations"
+transfer_target: "West Seattle Link Extension (Delridge, Alaska Junction), planned 2035"
+
+outcome:
+  description: "Log price of arm's-length single-family residential sales, repeated cross-section"
+  first_year: 1995          # sales volume before 1995 is under 15,000 a year county-wide
+  last_year: 2026
+  min_price_usd: 50000      # nominal; removes nominal-consideration transfers
+  principal_use: "6"        # assessor lookup: residential
+  property_class: "8"       # assessor lookup: residential improved property
+  sale_reason: "1"          # assessor lookup: none (no special circumstance)
+  sale_instruments: ["2", "3", "4", "5"]   # warranty, statutory, special, corporate warranty deed
+  present_use: ["2", "6", "29"]            # single family (res zone), single family (C/I zone), townhouse plat
+  exclude_any_sale_warning: true
+  exclude_multi_parcel_sales: true
+  require_single_building: true
+
+rings:                      # network walk minutes at 80 m/min from the station
+  treated_max: 10
+  spillover_max: 20
+  control_min: 20
+  control_max: 40
+
+treatment:
+  cohort_date: funding      # primary; alternates below form the specification curve
+  cohort_alternates: [announce, open]
+  assign: "earliest station (by chosen milestone) within spillover_max decides cohort and ring"
+  excluded_stations: [C03, C05, C07, C09]   # downtown tunnel: bus tunnel service since 1990
+  out_of_scope_counties: [Snohomish]        # no King County assessor data
+  planned_station_areas_are_controls: true  # West Seattle rings enter as never-treated
+
+dose:
+  measure: "change in log jobs reachable within 45 minutes by walk + Link at segment opening"
+  jobs_year: 2019           # LODES 8 WAC, all jobs; pre-pandemic
+  budget_min: 45
+
+estimator:
+  method: "Callaway-Sant'Anna group-time ATT, doubly robust repeated cross-section"
+  control_group: notyet
+  base_period: universal
+  event_min: -8
+  event_max: 10
+  min_cell: 20
+  covariates: [log_sqft_living, age, age_sq, grade, bedrooms, bathrooms, log_sqft_lot,
+               condition, has_view, waterfront]
+  comparison_block: assessor_area
+  submarket_indicators: true   # v2 (ADR-0007): assessor-area dummies in outcome and propensity models
+  spec_curve: [cohort_announce, cohort_open, never_treated_controls, controls_exclude_planned_areas, no_covariates]
+
+inference:
+  cluster: nearest_station
+  bootstrap: wild_cluster_rademacher
+  draws: 999
+  seed: 20261115
+  alpha: 0.05
+
+power:
+  alpha: 0.05
+  power: 0.80
+  pre_period_only: true     # residual variance from pre-cohort sales only
+
+falsification:
+  planted_effect: {effect: 0.05, runs: 100, min_coverage: 0.90}
+  pretrend_bounds: {mbar: 1.0}
+  placebo_stations: {replicates: 100, ring_m: 700, central_share: 0.95}
+  placebo_date: {shift_years: 5, horizon: 4}
+  composition: {outcomes: [log_sqft_living, age, grade], max_abs_std_effect: 0.10}
+  leave_one_station_out: true
+
+land_split:
+  sources: [vacant_land_sales, assessor_split]   # cost-approach source not available
+  vacant_present_use: "300"                        # assessor lookup: Vacant (Single-family)
+  vacant_property_class: "7"                       # assessor lookup: Res-Land only
+
+revenue:
+  instruments: [lid, tia]
+  horizon_years: 30
+  realization_years: 10     # capitalization ramps linearly from funding commitment to +10 years
+  base_scope: single_family # estimate applies to the property type it was estimated on
+  lid_zone_ring: treated    # special benefit assessed only inside the 10-minute ring
+  lid:                       # local improvement district special assessment (RCW 35.43)
+    capture_share: [0.3, 0.6]       # share of special benefit assessed; uniform range
+    collection: [0.95, 0.99]
+    admin_cost_share: [0.02, 0.05]
+    payment_years: 20
+    response_elasticity: [-0.3, -0.05]  # base shrinks by this share; never zero (spec)
+  tia:                       # tax increment area (RCW 39.114)
+    levy_rate_per_1000: [6.0, 9.0]  # eligible regular levies on increment value; assumption
+    collection: [0.97, 0.995]
+    admin_cost_share: [0.01, 0.03]
+    sunset_years: 25
+    response_elasticity: [-0.2, -0.02]  # development delay shrinks the increment
+  overlap_rule: "a parcel-year gain is counted under at most one instrument; LID first"
+
+finance:
+  funding_gap_usd: [800000000, 3800000000]     # cost estimate (5.0-8.0 bn) minus 4.2 bn finance plan
+  borrowing_rate: [0.035, 0.05]
+  debt_term_years: 30
+  implementation_lag_years: [0, 3]
+
+transfer:
+  error_sd_source: "between-station heterogeneity of elasticity (DerSimonian-Laird tau)"
+  planned_headway_min: 10
+  planned_connection: C15
+
+materiality:
+  bands: [0.05, 0.15, 0.30]   # funding ratio band edges
+  threshold: 0.05
+  bankability_quantile: 0.10
+  bankability_years: 10
+  monte_carlo_draws: 10000
+  seed: 20261116
+
+gates:
+  g2_precise_zero_halfwidth: 0.02   # CI within +/-2% of zero = precise zero
+  g4_min_probability_material: 0.50 # P(funding ratio >= threshold) needed to pass G4
+  g4_due_diligence_band: 0.30       # funding ratio above this triggers due diligence
+  tia_max_area_av_usd: 200000000    # RCW 39.114.020(1)(c)(i); two areas per sponsor
+  tia_max_areas: 2
+  g5_max_median_income_share: 0.05  # annual LID installment / block-group median income
